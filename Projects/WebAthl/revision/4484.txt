@@ -1,0 +1,33 @@
+Date	Sun Dec 08 17:36:35 2002
+Build	4484
+Release	386
+
+	changes are:
+
+	- Fixed Date Agegroup Calculation,
+		- The Following have been changed to
+		  check the for the existance of a 
+		  FixedDateAgeGroup before checking 
+		  the EventDate :
+
+			- Reports - GroupsList
+			- Reports - Roster
+
+			- ResultsEntry - Add
+			- ResultsEntry - QuickAdd
+			- ResultsEntry - BulkAdd
+
+			- Utilities - RebuildAgeGroups
+
+		- Maintain Series, when adding an Event,
+		  the Date For AgeGroup field defaults to null.
+
+	- Person Details Report,
+		- Now allows for a Filter of Comment Type.
+		- Permission to the Filter is Restricted to
+		  those in the Financial Group.
+
+
+	- TABLE change:
+		- ParticipantForSeries.EligibilityForEvent varchar (60) 
+

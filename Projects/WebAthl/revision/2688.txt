@@ -1,0 +1,13 @@
+Date	Sun Jun 11 11:36:18 2000
+Build	2688
+Release	285
+
+	changes are:
+
+	- editFinancial,
+		financial now has 3 states:
+			- lapsed
+			- current
+			- current in future
+
+		editFinancial will display the corresponding state.

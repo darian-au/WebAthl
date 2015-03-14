@@ -1,0 +1,8 @@
+Date	Mon Jan 22 15:25:08 2001
+Build	3601
+Release	338
+
+	changes are:
+
+	- Figured out how to get Multiple select list working, and integreated it
+	  into the maintenance module.

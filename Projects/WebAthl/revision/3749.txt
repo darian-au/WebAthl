@@ -1,0 +1,7 @@
+Date	Fri Jan 26 11:41:31 2001
+Build	3749
+Release	348
+
+	changes are:
+
+	- Missed another page when I renamed all the pages, fixed now.

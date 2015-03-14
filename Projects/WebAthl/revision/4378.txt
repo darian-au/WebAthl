@@ -1,0 +1,17 @@
+Date	Sat Sep 15 15:31:52 2001 
+Build	4378 
+Release	378 
+
+	changes are:
+
+	- Reports, GroupsList
+		- Added Column "Events For Series".
+		- Added Column Selection.
+		- Added Eligible CheckBox.
+
+	- Reports, EligibilityList
+		- Removed (Use the Eligible CheckBox on the GroupsList).
+
+	- Reports, ClubRecords
+		- Added Column Selection.
+		- Added Sort Order.

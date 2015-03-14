@@ -1,0 +1,70 @@
+Date	Sun Apr 23 10:35:20 2000
+Build	2444
+Release	267
+
+	changes are:
+
+	- many small changes.
+
+	- title now displays orgname on all pages instead of just webAthletics
+
+	- Security Menu - now auto generates Security Permission Tables, instead of
+		letting you modify it manually.  ie creating a table that is not supported
+		in the webAthl.DLL would have no effect anyway.
+
+	- database error messages now set at a global level, very easy to chnage messages
+		now.  I chnaged the "Error, updateing the database" message to
+		"Database Unchanged"
+
+	- cleaned up html, removed unessary colspan=1 and other things.
+
+	- removed [dbo]. from recordsets (internal)
+
+	- new function for displayAccessDeniedPage (internal) -> cleaned up alot of 
+		unecessary duplicated code.
+
+	- Report Event Tally now allows Tally count from FirstEventForSeason as well as
+		all events.
+
+	- Options Appearance color codes now need a # in front.  by doing it this way
+		you can also type in color names, eg
+		color code "GOLD" is the same as "#FFD700"
+		CORNFLOWER == #6495ED
+		CHOCOLATE == #D2691E ...
+		you can look up these color codes in the MSDN library - Color Table.
+
+	- Exit URL button now implemented.
+		- the button will be invisable until you name an exiturl in thr options
+
+	- Cascading Style Sheets now supported in Options menu.
+
+
+		- note that the last 3 required a registry change.
+		- this means that SHERPA will reset all registry values to their default
+		  at first run-time. ie any global appearance settings will be reset.
+
+	- Database change to Options table to support StyleSheet column.
+
+		- do a database Backup with old DLL
+		- edit the options CSV in excel to put an extra blank column at the end.
+		- change all color codes to have # in front. eg #F2F2F2.
+		- do a database Restore with new DLL
+
+		- don't forget to change all 3 : ACTVAC, ACTCCC AND testACTVAC databases.
+	
+
+	- I have changed my mind again with your SHERPA link on your ACTVAC menu frame
+		- get rid of the button and go back to the normal html link
+		- the reason I wanted the button in a new window was for 2 reasons
+			- 1 stop people using the BACK button and insetad navigate with the
+				sherpa buttons
+			- 2 the exit url button was going to a window close button instead.
+				- this required javascript inside SHERPA which i don't want
+
+		- so I have gone back to plan A, with a specified exit URL link.
+			- which means that the link will be opened in the current window.
+			- so we need to have the window as a normal browser.
+
+
+
+

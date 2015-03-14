@@ -1,0 +1,9 @@
+Date	Sat Jun 24 15:33:05 2000
+Build	2741
+Release	289
+
+	changes are:
+
+	- Edit Financial,
+		- now displays the registration description with 
+		  the corresponding date/year range to reduce ambiguity.

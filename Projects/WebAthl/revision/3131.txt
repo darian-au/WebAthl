@@ -1,0 +1,18 @@
+Date	Mon Dec 04 22:46:09 2000
+Build	3131
+Release	317
+
+	changes are:
+
+	- Rules -> Added new "General Eligibility" Rules :
+		- "Eligible Regardless of Division"
+		- "Eligible Regardless of Group"
+		- "Eligible Regardless of Financial"
+
+	- go in to any series, then click the "set Rule Types" button
+	  to add in the new rule types.
+
+	- make sure when you add a rule, you save it also.
+	- you can validate the rules by going to the Rules Report.
+
+	- "Eligible Regardless of Financial" has no effect yet, as there is no process.

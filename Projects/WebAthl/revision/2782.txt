@@ -1,0 +1,26 @@
+Date	Sun Jul 23 18:21:30 2000
+Build	2782
+Release	291
+
+	changes are:
+
+	- Club Records
+		- instead of storing Open Category AgeGroup as Age,
+		  now stores AgeGroup as 0, this way calcRecords groups all opens as 0.
+		- removed agecategory.
+		- check box allows selection of agegroup.
+
+	- Financial History / Participant History
+		- now allows column selection and sort order.
+
+	- Edit Series
+		- Handicap / Age Category removed.
+
+	- Person Details
+		- select box for registration Type.
+		- extra column to display registration period.
+
+
+	NB: Club Records Open Category stored as 0 will only effect new results.
+	all old historical result will still be as they were (until I get
+	the reCalc AgeGroups utility working).

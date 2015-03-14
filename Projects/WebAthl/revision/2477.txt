@@ -1,0 +1,26 @@
+Date	Sun Apr 30 22:22:03 2000
+Build	2477
+Release	271
+
+	changes are:
+
+	- Reports->Results, Column selection allowed.
+		- let me know which check boxes to tick for default
+
+	- Reports->Results, Order By Division auto selected if the number of divisions
+		is greater than 1
+
+	- Financial, Delete button added
+
+	- Financial, when adding a financial for a person,
+		the Year is now selected more intelligently.
+		It looks at that persons last financial registration type:
+			- if the registartion season start - stop < 0
+				- then Year defaults to current year -1
+			- else Year defaults to the current year
+			- if the person has now previous financial 
+				- then it defaults to the current year
+
+	- Results Entry, Delete button added
+
+

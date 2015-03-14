@@ -1,0 +1,68 @@
+Date	Tue Feb 29 20:40:10 2000
+Build	2143
+Release	239
+
+	changes are:
+
+	- Fixed Person String Anomaly
+
+		The problem was due to the differences between C and SQL empty string handling.
+		- C does it with a null terminated string, i.e. hex 00 at the end of string
+		- while SQL does it by setting the field to NULL
+		note that nulls are handled in two completely different contexts
+
+		the fix was to check for a string length of zero and then explicitly set the SQL field to NULL simply assigning the empty string was causing the problem where the first character would be overwritten with the x00 char
+
+		this problem may arise elsewhere as this is the only place where I check for empty strings.
+		let me know when it does and I will apply the same fix.
+
+		In order to remove the anomalies, you will have to enter in some text then delete it from those fields that have been previously affected.
+
+
+
+----------
+From: 	Colin Bridge[SMTP:colin.bridge@actvac.com]
+Sent: 	Tuesday, 29 February 2000 6:03 PM
+To: 	Mick Corlis
+Cc: 	Darian Bridge
+Subject: 	RE: Anomalies
+
+Mick
+
+Did a test on myself.   Added middle name of xxxx then saved, then deleted,
+then backed up.   The csv file had funny character then xxx in middle name.
+
+Looks like delete is not working properly as it doesn't let you delete the
+contents of a field (it only appears so on the screen).   Tried backspace to
+delete and it did the same thing.   Will work on it
+
+Colin
+
+
+-----Original Message-----
+From: Mick Corlis [mailto:mickc@wizardis.com.au]
+Sent: Tuesday, February 29, 2000 9:12 AM
+To: Colin Bridge; Colin Bridge
+Subject: Anomolies
+
+
+Colin,
+You might need to do some investigation.  Yesterday I mistakenly changed
+member 3811 from an Xxxx entry to a real person and made them
+financial.  I later realised my mistake and change it back blanking out
+all the other information lines (address etc).  I just imported the .csv
+file and all the details are still there minus the first character.
+SHERPA does not display any data other than the Xxxx. This suggests a
+string handling problem somewhere.
+
+--
+Mick Corlis
+Analyst/Programmer
+Wizard Information Services
+
+15 Barry Drive, Turner ACT 2612
+Phone:  +612 62 750 750
+Fax:    +612 62 750 777
+E-mail: mick.corlis@wizardis.com.au
+Wizard home page at:  http://www.wizardis.com.au
+

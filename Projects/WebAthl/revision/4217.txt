@@ -1,0 +1,32 @@
+Date	Thu Aug 23 23:49:26 2001
+Build	4217
+Release	371
+
+	changes are:
+
+	- Referential Integrity applied to Database,
+		- Foreign Keys added to most tables.
+		- Foreign Keys can be created/dropped from 
+		  the Maintenance Menu.
+		- You will need to apply the Unique Constraint on
+		  the Event Table Before creating the FKs.
+
+		- NB. My data had some FK violations on the 
+		  Series Table and the Person Table. 
+		  These must be fixed before creating the FKs.
+
+	- Event Table,
+		- Unique Constraint Added on Column EventID,
+		  required for Foreign Keys.
+		- You will need to Drop/Reload this Table to apply the
+		  change.
+
+	- Financial Table,
+		- Column MailListFlag datatype changed from BIT to INT.
+		- You will need to Drop/Reload this Table to apply the
+		  change.
+
+	- Maintenance->Encrypt/Decrypt Passwords,
+		- Added Confirmation Page.
+
+	

@@ -1,0 +1,9 @@
+Date	Sun Feb 18 12:31:40 2001
+Build	3935
+Release	354
+
+	changes are:
+
+	- Rules Report,
+		- Changed the wording of the report to try and approximate more
+		  closely the meaning of the rule.

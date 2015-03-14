@@ -1,0 +1,12 @@
+Date	Sun May 07 17:41:46 2000
+Build	2510
+Release	274
+
+	changes are:
+
+	- Utilities->Bulk Adjust Groups, 
+		- Now accomodates entry of a NewGroupMessage
+		- this NewGroupMessage is now set when current message is null
+
+		- n.b. Due to changes in the BulkAdjust SP you must run CreateSP in the
+		  Maintenance Menu for all 3 databases.

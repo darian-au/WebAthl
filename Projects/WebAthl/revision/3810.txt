@@ -1,0 +1,10 @@
+Date	Sun Feb 04 13:00:50 2001
+Build	3810
+Release	350
+
+	changes are:
+
+	- Bug Fix, Processing -> Set Misc Results, Update WAVA calculation
+
+	- License Key required to unlock SHERPA,
+		- has no real effect yet, only removes the "Unregistered" label.

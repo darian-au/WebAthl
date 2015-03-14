@@ -1,0 +1,21 @@
+Date	Wed Jan 17 19:47:00 2001
+Build	3396
+Release	329
+
+	changes are:
+
+	- Added new CUtil, CFormat, CConvert, CCalculate objects, 
+	  replacing old Utils methods.
+
+	- Added new CHtmlWriter objects, 
+	  replacing old WWWLib methods.
+
+	- Added new CAuthenticator object,
+	  replacing old ValidateLogin methods.
+
+	- Added new CRegistry object,
+	  replacing old RegLib methods.
+
+	- Added new CHttpServerProperties, CHttpServerVariable objects
+	  replacing old getINI methods.
+

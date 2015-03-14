@@ -1,0 +1,36 @@
+Date	Sun Jan 14 16:48:05 2001
+Build	3304
+Release	326
+
+	changes are:
+
+	- Reverted to old keys on Results, postResults, preResults :
+		- You will need to do a Restore, to create the tables with new keys.
+
+
+	CONSTRAINT PK_postResults PRIMARY KEY  
+	(
+		SeriesID,
+		EventID,
+		PersonID
+	)
+
+	CONSTRAINT PK_preResults PRIMARY KEY  
+	(
+		SeriesID,
+		EventID,
+		PersonID
+	)
+
+	CONSTRAINT PK_Results PRIMARY KEY  
+	(
+		SeriesID ,
+		EventID ,
+		PersonID 
+	)
+
+	- Added new RecordsetEx object
+		- all RecordSets extend RecordsetEx, which allows automatic generation
+		  of identity/sequence values
+
+	- All Create tabel SQL scripts have had Identity SQL removed

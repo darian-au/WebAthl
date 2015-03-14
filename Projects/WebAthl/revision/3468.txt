@@ -1,0 +1,10 @@
+Date	Fri Jan 19 23:59:04 2001
+Build	3468
+Release	332
+
+	changes are:
+
+	- renamed Report->Groups Alpha to Groups List, 
+	  and removed old Groups List report.
+
+	- fixed bug with minimum events on groups report.

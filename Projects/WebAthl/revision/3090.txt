@@ -1,0 +1,21 @@
+Date	Sat Dec 02 15:34:19 2000
+Build	3090
+Release	312
+
+	changes are:
+
+	- Bug Fix: Processing -> "Set Consistency Rates"
+		- Long Distance were being calculated with Sprints/Jump/Throw.
+
+		- Sprints/Jump/Throw calculate an average WAVA while Long Distance
+		  is calculated on average perf / average distance.
+
+		- The bug only occurred for complete PostEvent Processing.
+		- It was fine if you did manual "Set Consistency Rates"
+		  processing or complete PreEvent Processing.
+
+	- Bug Fix: Processing -> "Calculate Net-Performance"
+		- Sprints were being calculated with Long Distance, fixed.
+
+	- Bug Fix: Rounding Error on Performace Seconds print outs.
+

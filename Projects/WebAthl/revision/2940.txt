@@ -1,0 +1,7 @@
+Date	Sun Oct 22 16:11:14 2000
+Build	2940
+Release	303
+
+	changes are:
+
+	- New Report -> Custom Report, write your own SQL! (Adminstrator Only)

@@ -1,0 +1,30 @@
+Date	Sat Aug 04 12:02:32 2001
+Build	4197
+Release	370
+
+	changes are:
+
+	- SetFirstEventForSeason, relabled and note added.
+
+	- Security,
+		- Renamed Permissions :
+			- Series -> SeriesMaintain
+
+		- New Persmissions :
+			- SeriesAdd
+			- Utilities
+
+		- Utilities Menu :
+			- Permission moved on Persmission::Security to 
+			  Persmission::Utilities
+
+		- Series Menu (Add/Edit Series) :
+			- Permission moved on Persmission::Series to 
+			  Persmission::SeriesAdd
+
+		- Series Maintain Menu (Set Next Event For Processing) :
+			- Permission moved on Persmission::Security to 
+			  Persmission::Utilities
+
+		- NB: make sure you allocate the two new Permissions to the
+		  apropriate roles.

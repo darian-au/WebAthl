@@ -1,0 +1,38 @@
+Date	Sat Sep 01 16:21:13 2001
+Build	4293
+Release	375
+
+	changes are:
+
+	- Event Results Entry -> Quick Add,
+
+		- Allow Division, Agegroup to be entered.
+		- Division, AgeGroup are auto-selected in the same
+		  manor as Group.
+
+	- Event Results Entry -> Bulk Add,
+
+		- Allow Division, Agegroup to be entered.
+		- Division, AgeGroup are auto-selected in the same
+		  manor as Group.
+
+		- Full List of Legal Values for Column Names are now:
+
+			"Division"
+			"Div"
+			"Place"
+			"PersonID"
+			"AgeGroup"
+			"Age"
+			"HH"
+			"HOUR"
+			"MM"
+			"MIN"
+			"SS.SS"
+			"SS"
+			"SEC"
+			"Performance"
+			"Perf"
+			"GroupID"
+			"ChestNumber"
+			"ChestNo"

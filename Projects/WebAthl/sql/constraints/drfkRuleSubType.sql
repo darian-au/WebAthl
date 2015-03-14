@@ -1,0 +1,3 @@
+ALTER TABLE RuleSubType DROP
+
+	CONSTRAINT FK_RuleSubType_RuleTypeID

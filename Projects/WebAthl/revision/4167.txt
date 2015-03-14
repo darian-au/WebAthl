@@ -1,0 +1,12 @@
+Date	Sun Apr 29 11:36:05 2001
+Build	4167
+Release	366
+
+	changes are:
+
+	- Bug Fix, Security ,
+		- Problem with SecurityRole when Permission was NULL, fixed by:
+		- if( Permission == NULL ) then Permission = 0
+
+	- Registry Strings changed.
+		- all Registry Keys will be reset to default.

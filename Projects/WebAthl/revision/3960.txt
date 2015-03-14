@@ -1,0 +1,8 @@
+Date	Sun Apr 08 12:55:37 2001
+Build	3960
+Release	359
+
+	changes are:
+
+	- ODBC Setup Page modified.
+

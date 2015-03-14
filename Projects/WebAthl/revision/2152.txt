@@ -1,0 +1,19 @@
+Date	Sat Mar 04 20:12:33 2000
+Build	2152
+Release	242
+
+	changes are:
+
+	- Fixed PointScore Anomaly:
+
+		- We were compensating for the situation of 'same performance' by adding
+		  a point to the already decremented running points.
+		- We were compensating for the situation of 'same place' by adding
+		  a point to the already decremented running points.
+
+		- We were NOT compensating for the situation of 'same performance 
+		  AND same place' this is why the the points went up because both
+		  situations were being compensated for seperately.
+		- The fix was just to look out for the situation, and only increment once.
+
+	- You will need to create SP on both ACTVAC and ACTCCC db's to implement the changes.

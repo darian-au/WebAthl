@@ -1,0 +1,9 @@
+Date	Tue Jan 23 11:18:00 2001
+Build	3621
+Release	339
+
+	changes are:
+
+	- Bug Fix, cookie problem with empty cookie value.
+
+	- User Access defaults to NO, on installation.

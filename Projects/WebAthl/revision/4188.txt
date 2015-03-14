@@ -1,0 +1,8 @@
+Date	Sun Jul 08 13:14:10 2001
+Build	4188
+Release	369
+
+	changes are:
+
+	- Event Results Entry, 
+		Quick and Bulk both allow GroupID to be selected.

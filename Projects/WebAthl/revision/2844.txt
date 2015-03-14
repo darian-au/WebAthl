@@ -1,0 +1,10 @@
+Date	Sat Aug 05 20:16:08 2000
+Build	2844
+Release	297
+
+	changes are:
+
+	- SetEligibityXmore ("Update Eligibility for the Series") process
+		- rule modified
+
+	NB: need to run Maintenance->CreateSP to update StoredProcedures

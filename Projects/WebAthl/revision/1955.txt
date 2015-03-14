@@ -1,0 +1,49 @@
+Date	Fri Jan 21 15:12:22 2000
+Build	1955
+Release	219
+
+	changes are:
+
+	all changes discussed have been implemented:
+
+		- Database modification on table EventType
+		- Event Types : 2 sprint
+				1 long distance
+				0 jump / throw
+
+		- Processing based on event type ( as discussed )
+				Event Rate
+				NetPerformance
+				World Standard
+				Overall Place
+				Consistency Rate
+				Club Records
+
+	I have done very little testing on these changes.  They work but I am 
+	not completely sure if they compute correct values (althogh they look ok).
+
+	to use the new DLL:
+		because of the database change, new tables must be generated, to do this:
+
+		- Perform a Backup using the Old DLL.
+		- replace the DLL.
+		- Perform a Restore using the New DLL.
+
+
+	To replace the DLL:
+
+		- log on to the server
+		- go to Control Panel -> services
+		- scroll down to "World Wide Web Publishing Service"
+		- Press the "Stop" button, wait for it to stop
+		- Press the "Start" button, wait for it to start
+
+		- the DLL will now be unloaded from memory
+
+		- you can now go the the dir its in ( Inetpub\scripts\actvac )
+		- rename webAthl.DLL to webAthl.old.DLL
+		- rename webAthl1955.DLL to webAthl.DLL
+
+		- done.
+		- don't forget to Restore the DB so that the new Tables are generated.
+

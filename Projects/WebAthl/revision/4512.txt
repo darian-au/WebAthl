@@ -1,0 +1,13 @@
+Date	Thu Mar 24 16:36:51 2005 
+Build	4512 
+Release	392 
+
+	changes are:
+
+	- Bug Fix "Set Points" Process, incorrectly calculating points
+	  for case where "Place by Division" rule is present and result
+	  where "Same Place" and "Equal Performance". -- fixed.
+
+	- Cosmetic changes for text "New Group Message" and "Regroup"
+	  to "Comment".
+

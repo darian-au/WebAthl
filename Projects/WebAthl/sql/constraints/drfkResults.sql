@@ -1,0 +1,6 @@
+ALTER TABLE Results DROP
+
+	CONSTRAINT FK_Results_SeriesID ,
+	CONSTRAINT FK_Results_OrgID ,
+	CONSTRAINT FK_Results_PersonID ,
+	CONSTRAINT FK_Results_EventID 

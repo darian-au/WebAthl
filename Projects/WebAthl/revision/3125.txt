@@ -1,0 +1,30 @@
+Date	Sun Dec 03 23:10:37 2000
+Build	3125
+Release	316
+
+	changes are:
+
+	- Processing -> "Rebuild Club Records for the Series "
+		- removed Stored Procedure and replaced with SQL.
+
+		- I don't know if you noticed but if a Series had 
+		  Jump Throw / Sprint / Long Distance all in the same
+		  Series, it would calculate the Record by using the first
+		  Event it found and then taking the Timed attribute from 
+		  that event, then all other events in the Series to calculate
+		  the record would be based on that Timed attribute.
+
+		  ie (I didn't check) in Track & Field Series, either all the 
+		  Sprints would have been the slowest, OR all the jump/throws would
+		  have been shortest! (but not both, one would be right)
+
+		- Anyway, I now do 3 passes for each Type.
+
+		- Also, the old SP wasn't clearing out the EventRecord Table
+		  properly, and leaving old data in it.
+
+		  eg if someone had their agegroup fixed up and they had a record
+		  at their old agegroup then they would end up in there twice,
+		  one for each agegroup.
+
+		- so when you test it, expect to see less records than previously.

@@ -1,0 +1,79 @@
+Date	Sat Aug 25 17:15:19 2001
+Build	4265
+Release	373
+
+	changes are:
+
+	- Event Results Entry -> Bulk Add Event Results,
+
+		- First Row Must Contain Column Names, e.g.:
+
+			Place,PersonID,HH:MM:SS.SS,GroupID,ChestNo
+			1,1057,00:45:47.78,27,cb1057x
+			2,2704,00:46:03.14,11,rt2704x
+
+		- This allows you to specify as many, 
+		  or as few of Columns as you require, e.g.:
+
+			PersonID,HH:MM
+			1057,00:45
+			2704,00:46
+
+		- You can also specify the columns in any order,
+		  provided that the Column Names match, e.g.:
+
+			ChestNo,Place,HH:MM:SS.SS,PersonID,GroupID
+			cb1057x,1,00:45:47.78,1057,27
+			rt2704x,2,00:46:03.14,2704,11
+
+		- Depending on the type of Entry (pre/post) 
+		  or the Event type (distance/sprint/jump-throw)
+		  you will be given a sample accordingly.
+
+		  e.g.: Post Event, Distance
+
+			Place,PersonID,HH:MM:SS.SS,GroupID,ChestNo
+			1,1057,00:45:47.78,27,cb1057x
+			2,2704,00:46:03.14,11,rt2704x
+
+		  e.g.: Pre Event, Distance
+
+			PersonID,HH:MM:SS.SS,GroupID,ChestNo
+			1057,00:45:47.78,27,cb1057x
+			2704,00:46:03.14,11,rt2704x
+
+		  e.g.: Pre Event, Jump-Throw
+
+			PersonID,Perf,GroupID,ChestNo
+			1057,47.78,27,cb1057x
+			2704,3.14,11,rt2704x
+
+
+		  e.g.: Post Event, Sprint
+
+			Place,PersonID,MM:SS.SS,GroupID,ChestNo
+			1,1057,45:47.78,27,cb1057x
+			2,2704,46:03.14,11,rt2704x
+
+		- Full List of Legal Values for Column Names are:
+
+			"Place"
+			"PersonID"
+			"HH"
+			"HOUR"
+			"MM"
+			"MIN"
+			"SS.SS"
+			"SS"
+			"SEC"
+			"Performance" 	maps to SS.SS (for Jump-Throw)
+			"Perf"		maps to SS.SS (for Jump-Throw)
+			"GroupID"
+			"ChestNumber"
+			"ChestNo"
+
+		- Column Names are NOT case sensative.
+
+		- If no Valid Column Names can be found on the first Row,
+		  you will provided with an error message, and no rows will
+		  be added.

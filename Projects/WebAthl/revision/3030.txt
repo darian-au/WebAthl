@@ -1,0 +1,10 @@
+Date	Sat Nov 25 23:00:17 2000
+Build	3030
+Release	310
+
+	changes are:
+
+	- Processing -> "Calculate Net-Performance; Percentile; World-Standard; Points"
+	- Processing -> "Set Consistency Rates"
+	- Processing -> "Set Consistency Age-Groups"
+		- removed Stored Procedure and replaced with SQL.

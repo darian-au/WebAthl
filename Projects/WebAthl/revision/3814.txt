@@ -1,0 +1,14 @@
+Date	Sun Feb 04 14:38:59 2001
+Build	3814
+Release	351
+
+	changes are:
+
+	- Cryptography -> now computes and stores checksum values on the strings before
+	  Encryption, and compares the checksum after Decryption. (greater accuracy)
+
+	- This means all user passwords will now become useless.
+	- What you must do is Decrypt all passwords with the old version of WebAthl.DLL
+	- Then install the new WebAthl.DLL
+	- Then Encrypt all user passwords.
+

@@ -1,0 +1,7 @@
+Date	Sat Jun 03 17:32:33 2000
+Build	2675
+Release	281
+
+	changes are:
+
+	- Bug Fix - Double data type output for nulls.

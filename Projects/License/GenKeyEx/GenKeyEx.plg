@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GenKeyEx - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Release/GenKeyEx.res" /d "NDEBUG" /d "_AFXDLL" "D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\GenKeyEx.RC"" 
+Creating temporary file "C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GENKEYEX_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/GenKeyEx.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\Crypt.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\CryptByteArray.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\GenKeyEx.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\RegKey.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\Switch.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\Base64.cpp"
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\MIMECode.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP35.tmp" 
+Creating temporary file "C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GENKEYEX_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/GenKeyEx.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DARIAN\My Documents\MyProjects\WebAthl\License\GenKeyEx\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP36.tmp" 
+Creating temporary file "C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /dll /incremental:no /pdb:"Release/GenKeyEx.pdb" /machine:I386 /def:".\GenKeyEx.DEF" /out:"Release/GenKeyEx.dll" /implib:"Release/GenKeyEx.lib" 
+".\Release\Crypt.obj"
+".\Release\CryptByteArray.obj"
+".\Release\GenKeyEx.obj"
+".\Release\RegKey.obj"
+".\Release\StdAfx.obj"
+".\Release\Switch.obj"
+".\Release\GenKeyEx.res"
+".\Release\Base64.obj"
+".\Release\MIMECode.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\dbridge\LOCALS~1\Temp\RSP37.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Crypt.cpp
+CryptByteArray.cpp
+GenKeyEx.cpp
+RegKey.cpp
+Switch.cpp
+Base64.cpp
+MIMECode.cpp
+Generating Code...
+Linking...
+   Creating library Release/GenKeyEx.lib and object Release/GenKeyEx.exp
+
+
+
+<h3>Results</h3>
+GenKeyEx.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

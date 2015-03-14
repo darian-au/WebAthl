@@ -1,0 +1,10 @@
+Date	Fri Sep 20 23:09:25 2002 
+Build	4418 
+Release	382 
+
+	changes are:
+
+	- Bug Fix, Utility "Rebuild Age Groups",
+	  If DoB exists, AgeGroup is re-calculated,
+	  If DoB doesn't exist AND Agegroup doesn't exist, AgeGroup set to Default (999),
+	  If DoB doesn't exist AND Agegroup does exist, AgeGroup is not re-calculated.

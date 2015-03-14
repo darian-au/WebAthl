@@ -1,0 +1,7 @@
+Date	Sun Oct 29 13:19:29 2000
+Build	2990
+Release	308
+
+	changes are:
+
+	- Minor clean up on Logon and ODBC Setup pages

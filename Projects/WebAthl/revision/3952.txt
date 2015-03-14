@@ -1,0 +1,7 @@
+Date	Sat Mar 17 11:56:41 2001
+Build	3952
+Release	358
+
+	changes are:
+
+	- Evaluation Version -> 2 series, 10 events (per series), 100 persons.

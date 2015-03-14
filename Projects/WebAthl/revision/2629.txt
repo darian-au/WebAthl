@@ -1,0 +1,15 @@
+Date	Tue May 16 21:33:15 2000
+Build	2629
+Release	279
+
+	changes are:
+
+	- Security -> Assign Login
+		- now allows delete
+
+	- when deleting duplicates, 
+		- if there is a conflict on financial, you can delete them
+		  in the financial menu.
+		- if there is a conflict on security, you can delete them
+		  in assign login.
+	

@@ -1,0 +1,7 @@
+Date	Fri Jan 26 13:35:24 2001
+Build	3759
+Release	349
+
+	changes are:
+
+	- Added Error Page on Bad Request.

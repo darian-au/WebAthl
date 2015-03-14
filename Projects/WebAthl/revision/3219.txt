@@ -1,0 +1,14 @@
+Date	Sat Dec 09 16:34:02 2000
+Build	3219
+Release	322
+
+	changes are:
+
+	- Processing -> "Update Financial Eligibility for the Series"
+
+		- new Pre-Event Process, anyone who is NOT Current Financial,
+		  at the time of processing, gets EligibilityForEvent == 'F'
+		  on ParticipantForSeries 
+
+		- to disable this rule, go to Series -> Rules, and add the 
+		  "General Eligibility" -> "Eligible Regardless of Financial" Rule.

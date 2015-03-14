@@ -1,0 +1,16 @@
+Date	Fri Oct 27 17:19:28 2000
+Build	2970
+Release	307
+
+	changes are:
+
+	- Rebuild Participant For Series SQL updated:
+
+	from:
+		...
+		 (Event.EventNo>(%d-SeriesSeason.EventsInSeason))) 
+		...
+	to:
+		...
+		 (Event.EventNo>=(%d-SeriesSeason.EventsInSeason))) 
+		...

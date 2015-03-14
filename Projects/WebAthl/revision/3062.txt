@@ -1,0 +1,22 @@
+Date	Sun Nov 26 12:58:42 2000
+Build	3062
+Release	311
+
+	changes are:
+
+	- Processing -> "ReGroup Up" and "ReGroup Down"
+		- removed Stored Procedure and replaced with SQL.
+
+		- Both "ReGroup Up" and "ReGroup Down" have been combined to run
+		  in a single pass instead of 2 seperate passes.
+
+		- "ReGroup Up" is now actually "ReGroup" while "ReGroup Down" 
+		  does nothing.
+
+		- I have tested ReGroup on Adler, Thomas, Daniels, they all seem
+		  to calculate the same regroups, but I haven't tested it 
+		  on Jumps or Throws.
+
+		- "ReGroup" has been completely reworked so check it carefully.
+
+	- The only SP left now is "Rebuild Club Records for the Series"

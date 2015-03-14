@@ -1,0 +1,52 @@
+Date	Sun Dec 10 13:57:23 2000
+Build	3234
+Release	324
+
+	changes are:
+
+	- Rules -> "General Eligibility" rules, renamed to "Processing" rules.
+
+		- you will need to run the following SQL before using the rules,
+		  otherwise, you will loose the "General Eligibility" rules and have to
+		  re create them.
+
+UPDATE 	RuleType
+SET	RuleTypeDescription = 'Processing'
+WHERE	RuleTypeDescription = 'General Eligibility'
+
+	- Rules -> new "Processing" rule added: "Set Overall-Place By Division"
+
+		- after running the above SQL, go to 
+		  Series -> Rules -> "set Rule Types" to create the new rule
+
+	- Processing -> uses new "Processing" rule "Set Overall-Place By Division"
+
+		- if the rule exists then the following two processes 
+		  Set Overall-Place By Division,
+
+		- if the rule does NOT exist, then they 
+		  Set Overall-Place By Place
+
+		- "Calculate Over All Place"
+		- "Calculate Net-Performance; Percentile; World-Standard; Points"
+
+		- please check these two processes still work as required.
+
+
+	- Processing now no longer tries to be smart, before it was auto selecting
+	  the "Set Overall-Place" by looking at the EventType.
+
+	- You will now need to set the correct rule for each series, as you
+	  cannot choose it from the processing menu.
+
+	- To help you set up the correct rules, this is how I was previously
+	  selecting the "Set Overall-Place":
+
+		- Jump or Throw 
+			"Set Overall-Place By Division"
+
+		- Long Distance 
+			"Set Overall-Place By Division"
+
+		- Sprint 
+			"Set Overall-Place By Place"

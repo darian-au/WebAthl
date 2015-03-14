@@ -1,0 +1,24 @@
+Date	Thu Oct 26 21:21:56 2000
+Build	2968
+Release	306
+
+	changes are:
+
+	- Default AgeGroup on NULL DateOfBirth can now be set
+	  through the Options->AgeGroups menu.
+
+	- Any person whose dob is NULL will be given this
+	  value when their AgeGroup is calculated. 
+
+	- NOTE: This value is stored in the registry.
+
+	- ALL registry values will be reset when you save this
+	  value.  Before you save this value, you should
+	  write down all the option items: 
+		- Appearance, 
+		- Exit URL, 
+		- Age Groups,
+		- Processing,
+		- Cryptography,
+
+		- ODBC Setup will remain unchanged.

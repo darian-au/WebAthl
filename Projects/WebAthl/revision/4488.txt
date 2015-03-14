@@ -1,0 +1,16 @@
+Date	Sun Dec 15 10:37:33 2002
+Build	4488
+Release	387
+
+	changes are:
+
+	- Fixed Date Agegroup Calculation,
+		- Bug Fix - Default AgeGroup check for zero.
+
+	- Report Results By Series,
+		- Permission only for SeriesMaintain Role,
+		  (Series Managers).
+
+
+
+

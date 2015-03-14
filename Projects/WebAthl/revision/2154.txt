@@ -1,0 +1,11 @@
+Date	Sun Mar 05 14:24:35 2000
+Build	2154
+Release	243
+
+	changes are:
+
+	- Fixed 50th% Regroup on Division:
+
+		- The Regroup SP now looks at the 50th% for the current persons divison.
+
+	- You will need to create SP on both ACTVAC and ACTCCC db's to implement the changes.

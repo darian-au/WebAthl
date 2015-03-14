@@ -1,0 +1,5 @@
+ALTER TABLE RuleSubType ADD
+
+	CONSTRAINT FK_RuleSubType_RuleTypeID
+	FOREIGN KEY (RuleTypeID) 
+	REFERENCES RuleType (RuleTypeID)

@@ -1,0 +1,10 @@
+Date	Sat Oct 27 11:10:31 2001 
+Build	4383 
+Release	380 
+
+	changes are:
+
+	- Bug Fix, Process "Set Eligibility for Division",
+	  Skipped due to incorrect Rule, 
+	  now skipped on "Eligible Regardless of Division".
+

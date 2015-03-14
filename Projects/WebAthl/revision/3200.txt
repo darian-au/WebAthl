@@ -1,0 +1,7 @@
+Date	Thu Dec 07 20:07:05 2000
+Build	3200
+Release	319
+
+	changes are:
+
+	- Internal Cleanup on Permission checking.

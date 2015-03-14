@@ -1,0 +1,23 @@
+Date	Sun Feb 27 00:17:01 2000
+Build	2141
+Release	238
+
+	changes are:
+
+
+>Need the ability to set eligibility on results to Y for series that
+>calculate points but have no eligibility criteria (anyone who enters is
+>eligible for points.   At the moment we default new starters to X.   We need
+>to be able edit this to Y and then re-do postEventProcessing.
+
+	- Utilities->Change Group form, now allows Eligibility to be changed
+		( it changes both Results and ParticipantForSeries)
+
+	- When Processing is run, all SP processes now check the number of Eligibility Rules when
+		automatically adding a new person into the ParticipantForSeries.
+		- If there is less than 1 (ie 0) Eligibility Rules, then the default Eligibility
+			is set to 'Y'
+		- If there is 1 or more Eligibility Rules, then the default Eligibility is set
+			to 'X' (as usual)
+
+To enable these changes you must run CreateSP in maintenance menu on both ACTVAC and ACTCCC db's.

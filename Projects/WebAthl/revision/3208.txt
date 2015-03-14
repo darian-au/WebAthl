@@ -1,0 +1,7 @@
+Date	Thu Dec 07 23:15:10 2000
+Build	3208
+Release	320
+
+	changes are:
+
+	- Internal Cleanup for saves on large tables.

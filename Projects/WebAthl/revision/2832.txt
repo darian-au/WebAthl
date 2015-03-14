@@ -1,0 +1,16 @@
+Date	Sat Aug 05 00:26:16 2000
+Build	2832
+Release	295
+
+	changes are:
+
+	- SetPFSOrganisation ("Set Participants Organisation") AND
+	- SetNewGroupsDivision ("Update for Group Movement and Division") AND
+	- ReSetEligibility "Reset Eligibility for the Series" AND
+	- RebuildParticipantForSeries "Rebuild Participants for the Series"
+		- are now all SQL queries, very fast
+
+	- SetEligibityXmore ("Update Eligibility for the Series") process
+		- bug fix (was only working before on SeriesID = 1)
+
+	NB: need to run Maintenance->CreateSP to update StoredProcedures

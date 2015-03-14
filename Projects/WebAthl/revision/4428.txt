@@ -1,0 +1,8 @@
+Date	Sat Oct 05 19:14:11 2002 
+Build	4428 
+Release	383 
+
+	changes are:
+
+	- Variation to Import/Export,
+	  now puts CSVs into "<DBName>\Data" folder.

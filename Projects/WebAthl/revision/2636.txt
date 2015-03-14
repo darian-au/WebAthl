@@ -1,0 +1,8 @@
+Date	Thu May 18 19:14:53 2000
+Build	2636
+Release	280
+
+	changes are:
+
+	- Utilities -> Fix Duplicates
+		- now allows a selection of Tables for Delete

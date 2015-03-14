@@ -1,0 +1,13 @@
+Date	Sat Feb 05 17:50:41 2000
+Build	2081
+Release	231
+
+	changes are:
+
+	- Utilities -> Delete Results button.
+	- most Select Event forms now Order By EventNo DESC
+	- Processing -> Post Event now includes:
+			- Update PointScores
+			- Set Consistency Rates
+			- Set Consistency Age-Groups
+

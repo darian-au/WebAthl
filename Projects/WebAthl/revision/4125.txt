@@ -1,0 +1,9 @@
+Date	Sun Apr 22 16:12:48 2001
+Build	4125
+Release	364
+
+	changes are:
+
+	- 'Roster' relabelled 'Event Roster'
+
+	- New Report, Event Calendar,

@@ -1,0 +1,48 @@
+Date	Sat Apr 28 20:04:58 2001
+Build	4160
+Release	365
+
+	changes are:
+
+	- Personalised Options removed. 
+
+	- Security Modified to use Permission BitMask.
+		- reduces 5 tables to 2 tables
+		- alot more efficient
+		- reduces load on database (as security is checked on every page)
+
+	- The following tables have been removed:
+
+		- SecurityGroup		-> into SecurityPerson
+
+			- SecurityGroup.SecurityGroupID		-> SecurityPerson.RuleID
+
+
+		- SecurityGroupDesc	-> into SecurityRole
+
+			- SecurityGroupDesc.SecurityGroupID	-> SecurityRole.RoleID
+			- SecurityGroupDesc.SecurityGroupName 	-> SecurityRole.RoleName
+								   SecurityRole.Permission
+							
+		- SecurityGroupPerm
+		- SecurityPermTable
+		- Options
+
+SecurityPerson:
+
+SELECT 	SecurityPerson.PersonID AS PersonID,
+	SecurityPerson.LoginName AS LoginName,
+	SecurityPerson.Password AS Password,
+	SecurityGroup.SecurityGroupID AS RoleID
+
+FROM 	SecurityPerson LEFT JOIN SecurityGroup ON 
+		SecurityPerson.PersonID = SecurityGroup.PersonID
+
+
+SecurityRole:
+
+SELECT 	SecurityGroupDesc.SecurityGroupID AS RoleID,
+	SecurityGroupDesc.SecurityGroupName AS RoleName,
+	NULL AS Permission
+
+FROM	SecurityGroupDesc

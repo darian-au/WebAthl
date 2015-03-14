@@ -1,0 +1,43 @@
+Date	Sat Dec 16 15:15:20 2000
+Build	3244
+Release	325
+
+	changes are:
+
+	- Security -> Assign Login to User
+
+		- Bug Fix, problem comparing passwords.
+
+	- Financial -> Add Financial
+
+		- Check to see if the Person to add financial for has a DOB,
+		  if they don't, then you'll get an error message.
+
+	- Adjusted keys on Results, postResults, preResults :
+		- You will need to do a Restore, to create the tables with new keys.
+
+
+	CONSTRAINT PK_postResults PRIMARY KEY  
+	(
+		SeriesID,
+		EventID,
+		PersonID,
+		DivisionActual
+	)
+
+	CONSTRAINT PK_preResults PRIMARY KEY  
+	(
+		SeriesID,
+		EventID,
+		PersonID,
+		DivisionSupposedTo
+	)
+
+	CONSTRAINT PK_Results PRIMARY KEY  
+	(
+		SeriesID ,
+		EventID ,
+		PersonID ,
+		DivisionActual ,
+		DivisionSupposedTo
+	)

@@ -1,0 +1,16 @@
+Date	Sat Mar 04 15:05:32 2000
+Build	2150
+Release	241
+
+	changes are:
+
+	- Adjusted Security on Utilities Menu:
+
+		- A person who has 'Series' privileges can access the following menu 
+		  items on the 'Utilities' Menu:
+			- set Eligibility on Group
+			- Split Divisions
+			- Change Group   
+		- A person who has 'Security' privileges has access to the rest of the 
+		   menu items.
+

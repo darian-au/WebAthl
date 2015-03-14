@@ -1,0 +1,15 @@
+Date	Sat Jul 29 19:29:10 2000
+Build	2812
+Release	292
+
+	changes are:
+
+	- new Awards report replaces Consistency and Pointscore
+		- i ended up adding OrgID in ParticipantForSeries Table
+
+	- new Pre-Event Process -> Set Participants Organisation 
+
+	- new Utility -> Rebuild Age Groups
+
+	NB: need to run Maintenance->CreateSP for new StoredProcedures
+	NB: need to backup/restore for new OrgID Column in ParticipantForSeries Table

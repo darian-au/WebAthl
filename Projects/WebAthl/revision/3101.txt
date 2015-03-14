@@ -1,0 +1,7 @@
+Date	Sun Dec 03 01:02:29 2000
+Build	3101
+Release	315
+
+	changes are:
+
+	- Bug Fix: Options -> Appearance, wasn't saving properly, fixed.

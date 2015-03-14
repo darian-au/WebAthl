@@ -1,0 +1,7 @@
+Date	Sat Sep 22 18:39:43 2001 
+Build	4380 
+Release	379 
+
+	changes are:
+
+	- Style Sheet support modified.

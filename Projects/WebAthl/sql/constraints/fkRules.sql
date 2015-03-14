@@ -1,0 +1,9 @@
+ALTER TABLE Rules ADD
+
+	CONSTRAINT FK_Rules_SeriesID 
+	FOREIGN KEY (SeriesID) 
+	REFERENCES Series (SeriesID),
+
+	CONSTRAINT FK_Rules_RuleTypeID
+	FOREIGN KEY (RuleTypeID) 
+	REFERENCES RuleType (RuleTypeID)

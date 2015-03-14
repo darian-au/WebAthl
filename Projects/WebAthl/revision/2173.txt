@@ -1,0 +1,9 @@
+Date	Mon Mar 06 22:00:41 2000
+Build	2173
+Release	245
+
+	changes are:
+
+	- Utilities->ChangeGroup split into two utilities
+		- Utilities->ChangeGroup
+		- Utilities->ChangeElig

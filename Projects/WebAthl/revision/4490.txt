@@ -1,0 +1,11 @@
+Date	Sun Feb 23 14:05:46 2003 
+Build	4490 
+Release	388
+
+	changes are:
+
+	- Bug Fix, Event Results Entry
+		- Quick Add was not recognising decimal places. 
+
+	- Bug Fix, Cosmetic, Report Results,
+		- Column header Eligibility spelled incorrectly.

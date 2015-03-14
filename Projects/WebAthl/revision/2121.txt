@@ -1,0 +1,9 @@
+Date	Sun Feb 06 21:31:16 2000
+Build	2121
+Release	234
+
+	changes are:
+
+	- Consistency Report not dependant on Event to Qualify Consistency Rule
+	- Rules Report fixed for eligibility '8 events missed 1 more needed'
+

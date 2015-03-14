@@ -1,0 +1,16 @@
+Date	Fri Aug 24 11:54:18 2001
+Build	4235
+Release	372
+
+	changes are:
+
+	- Maintenance->Import/Export Data, Create Tables,
+		- Import/Export Data Table Order is now in Forward Referential Order,
+		  to allow for easy Import while FKs are applied.
+
+		- Create Tables Table Order is now in Reverse Referential Order,
+		  to allow for easy Create while FKs are applied.
+
+	- Logon Page,
+		- Warning added when an Administrator Logs on Informing if User Access
+		  has been disabled.

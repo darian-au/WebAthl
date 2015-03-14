@@ -1,0 +1,12 @@
+Date	Sat Jan 20 15:42:43 2001
+Build	3490
+Release	333
+
+	changes are:
+
+	- removed old code:
+		CookieLib.cpp
+		RegLib.cpp
+		Utils.cpp
+		ValidateLogin.cpp
+		WWWLib.cpp

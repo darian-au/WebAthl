@@ -1,0 +1,30 @@
+Date	Sat Nov 30 14:01:30 2002 
+Build	4441 
+Release	384 
+
+	changes are:
+
+	- Cosmetic :
+		- Jump or Throw renamed to Jump, Throw or Points
+		- WAVA to Age Standard
+
+	- Processing:
+		- Net Performance Calculation,
+		  Gross - H'Cap instead of Gross + H'Cap
+
+		- Consistency Age Standard Aggregation,
+		  calculated in accordance with Rules,
+		  requires new Column in ParticiopantForSeries
+
+		TABLE ParticipantForSeries 
+		 ConsistencyAgeStandard real NULL ,
+
+	- Fixed Date Agegroup Calculation,
+		- Not implemented yet, but new columns added in
+		  Event table.
+
+		TABLE Event 
+		 DateAgeDAY int NULL ,
+		 DateAgeMONTH int NULL ,
+		 DateAgeYEAR int NULL ,
+

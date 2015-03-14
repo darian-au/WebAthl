@@ -1,0 +1,29 @@
+Date	Sun Apr 16 00:45:01 2000
+Build	2280
+Release	253
+
+	changes are:
+
+	- Organisation Menu
+		- view Organisation
+		- allow addition of other Organisations
+		- (the first Org is used for the web page headings, 
+		   i.e the Org with the lowest OrgID)
+	- Financial now allows selection of an Organisation (you must choose one)
+		- if you want people to not have an organisation on their finacial,
+		  then add a 'dummy' Organisation that has no name.
+	- Financial History Report will now display the Organisation
+	- Person Details Report now allows filtering on Organisation
+	- Results Report now displays the Organisation if the Participant is Financial.
+
+	- A database change had to be made on the Financial Table (added Column OrgID)
+		- because you now must select an organisation on Financial, you will
+		  have to manually add an OrgID to every row in the CSV Financial file
+		  before you do a restore.
+
+	so:
+
+		- Backup both ACTVAC ACTCCC with old webAthl.DLL
+		- manully enter in an OrgID number for all rows in Financial table.
+		- Restore
+	

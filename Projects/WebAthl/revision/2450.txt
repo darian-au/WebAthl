@@ -1,0 +1,10 @@
+Date	Tue Apr 25 18:21:02 2000
+Build	2450
+Release	268
+
+	changes are:
+
+	- bug fix for null values in Options Table, and all other tables.
+
+	- no database changes or SP changes needed,
+		just replace the webAthl.DLL file.

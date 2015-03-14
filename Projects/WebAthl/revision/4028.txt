@@ -1,0 +1,18 @@
+Date	Mon Apr 16 05:22:21 2001
+Build	4028
+Release	360
+
+	changes are:
+
+	- New Report, "Results By Series", 
+		- MemberReports privilidges required as the
+		  list generated can be very long.
+
+	- New Utility, "Split Division By Sex / Age Group",
+		- Calculates Age Group on the fly, based on Today's date.
+		- Doesn't work for people with NULL DoB.
+
+	- Search Person, now uses options for minimum search criteria
+
+	- New Options, "Person Search",
+		- Modify minimum search person criteria.

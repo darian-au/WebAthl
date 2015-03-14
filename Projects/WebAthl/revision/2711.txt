@@ -1,0 +1,23 @@
+Date	Mon Jun 12 18:04:41 2000
+Build	2711
+Release	286
+
+	changes are:
+
+	- PersonDetails ->Financial
+		- Current 
+			displays financial members who are current in today's financial
+			Year.  If a particular person's most recent financial is newer than
+			todays financial year, the reports seeks out that person next most
+			recent financial until it either finds one or not.
+		- Is / Was during ...
+			displays financial members who are current in SelectYear's financial
+			Year.  If a particular person's most recent financial is newer than
+			SelectYear's financial year, the reports seeks out that person next most
+			recent financial until it either finds one or not.
+			
+	- Financial
+		- Primary Organisation / Secondary Organisation
+
+	- Person
+		- Partner relabelled as Contact

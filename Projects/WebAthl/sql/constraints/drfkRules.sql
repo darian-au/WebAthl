@@ -1,0 +1,4 @@
+ALTER TABLE Rules DROP
+
+	CONSTRAINT FK_Rules_SeriesID ,
+	CONSTRAINT FK_Rules_RuleTypeID

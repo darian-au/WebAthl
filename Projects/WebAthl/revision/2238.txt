@@ -1,0 +1,43 @@
+Date	Sun Mar 19 22:08:21 2000
+Build	2238
+Release	248
+
+	changes are:
+
+	- new RegistrationType Table
+
+		- you must create a new Security Table : RegistrationType
+		- then allocate this Table to a Security Group
+		- this will allow privilidged users to access the new Registration Type Menu
+		- from here you can add Registration Types and valid month ranges
+
+		- the financial table had to be modified, the column:
+			- RegistrationSeason char(1)
+		- is now:
+			- RegistrationSeason int
+		- which is a look-up into the RegistrationType Table
+		- so that means all the old data will be invalid, ie we had 'Y' for
+			year-long; 'S' for summer etc
+
+		- to fix this you must:
+
+			0. ensure all user access is disabled
+
+			1. backup both ACTVAC & ACTCCC DBs with old DLL.
+			2. zip up the csv's so you have a backup
+			3. manually modify the CSV for Financial table
+			4. change all 'Y' to 1; 'S' to 2 'W' to 3 etc.
+			5. save the CSV
+			6. replace the DLL
+			7. do a restore
+			8. go to RegistrationType menu
+			9. Add 3 RegistrationTypes
+			10. make sure that the RegistrationType ID corresponds to the right
+			    type; i.e. if you change the CSVs 'Y' to 1; make sure
+			    that the RegistrationType ID for Year-long is 1
+			11. check that it worked by going to the finacial for a person
+			    and seeing if they have the correct  RegistrationType
+			12. also check by running a Finacial History report and a 
+			    Person Details report
+			13. don't forget to add a security table: RegistrationType
+

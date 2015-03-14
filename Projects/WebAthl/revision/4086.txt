@@ -1,0 +1,8 @@
+Date	Sat Apr 21 22:55:12 2001
+Build	4086
+Release	363
+
+	changes are:
+
+	- New Main Menu Item, 'Open Pre-Event Entry'
+		- Minor Bug Fix, for SQL when table does not exist

@@ -1,0 +1,8 @@
+Date	Sat Dec 09 17:54:59 2000
+Build	3224
+Release	323
+
+	changes are:
+
+	- Processing -> Bug Fix, caused by previous cleanups, 
+	  not selecting event type properly. fixed.

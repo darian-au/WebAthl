@@ -1,0 +1,19 @@
+Date	Fri Dec 08 23:32:19 2000
+Build	3215
+Release	321
+
+	changes are:
+
+	- Maintenance -> Create SP
+		- will now drop all SP, as we now don't use them.
+
+	- Processing -> "Set Eligibility for Current Financial"
+
+		- new process, anyone who is NOT current financial
+		  on the day of the event gets eligible == 'F'
+
+		- to disable this rule, go to Series -> Rules, and add the 
+		  "General Eligibility" -> "Eligible Regardless of Financial" Rule.
+
+
+	

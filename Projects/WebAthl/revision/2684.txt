@@ -1,0 +1,24 @@
+Date	Sat Jun 10 11:58:08 2000
+Build	2684
+Release	284
+
+	changes are:
+
+	- addFinancial,
+		- wasn't autoselecting the person's - maillist; regtype; org
+		  if they were a renewal.
+
+		- it now looks at their most recent financial and autoselects these.
+		- if they are new then the defaults are selected.
+
+		- note that because a renewal already has a previous regTypeId
+		  it can autoselect the FinancialYearValid based on that regTypeId
+		  e.g. say regTypeMonthStart = 7, regTypeMonthStop = 6;
+			   then because ((Stop - Start) < 0) and (today.Month <= Stop)
+				-> FinancialYearValid autoselects to today.Year -1
+					i.e. Today's Financial Year based on the person's
+						registrationType
+
+		- if the person is a new memeber (never been financial) then
+		  because they have no previous regTypeId the FinancialYearValid
+		  cannot be determined. so today.Year is set as the default.

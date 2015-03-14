@@ -1,0 +1,7 @@
+Date	Fri Jun 09 23:56:18 2000
+Build	2678
+Release	283
+
+	changes are:
+
+	- "Current" function returns true when today.Year <= Financial.YearValid

@@ -1,0 +1,13 @@
+Date	Wed May 09 20:56:15 2001
+Build	4170
+Release	367
+
+	changes are:
+
+	- Utility -> Fix Duplicate Person,
+		- Removed Options, and SecurityGroup
+
+	- Search Person,
+		- PersonID Field empty (null)
+
+	- All EditIntBox's take 6 digits.

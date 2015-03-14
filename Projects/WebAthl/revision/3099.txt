@@ -1,0 +1,12 @@
+Date	Sun Dec 03 00:28:54 2000
+Build	3099
+Release	314
+
+	changes are:
+
+	- Select Event Drop Down Boxes, for some boxes, when order is 
+	  EventNo Descending, it auto picks the first event 
+	  that has a date less than or equal to todays date.
+
+	- I was getting annoyed at finding the most recently run event 
+	  on the reports pages.

@@ -1,0 +1,14 @@
+Date	Tue May 09 20:27:25 2000
+Build	2515
+Release	275
+
+	changes are:
+
+	- Processing -> Regroup
+		- if the newgroupid is off the scale then newgroupid is set to null
+			but still keeps the 'x events above %' message
+			so that you can easily see whoose off the scale with a '(null)'
+			newgroupid
+
+	- n.b. Due to changes in the ReGroup SP you must run CreateSP in the
+	  Maintenance Menu for all 3 databases.

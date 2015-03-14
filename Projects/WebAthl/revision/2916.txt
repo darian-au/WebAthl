@@ -1,0 +1,21 @@
+Date	Sun Oct 08 21:31:36 2000
+Build	2916
+Release	301
+
+	changes are:
+
+	- The following stored procedures have been removed and replaced with SQL
+
+		- SP_PadPreResults		 "Insert Pre-Event Entries"
+		- SP_PadPostResults		 "Update with PostEvent Results"
+		- SP_SetOrganisation		 "Set Results Organisation"
+		- SP_RebuildParticipantForSeries "Rebuild Participants for the Series"
+		- SP_SetPointScore		 "Update Point-Scores"
+
+		- SP_ReGroupPersonsLastEvent	 "BulkAdjustGroups"
+
+	- please run processing to check they still work the same.
+
+	- NB, you will need to go to Maintenance Menu and "Create Views"
+		- i needed to create a view to be able to run some of the SQL queries
+		  under ms-access.

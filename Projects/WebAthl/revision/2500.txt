@@ -1,0 +1,25 @@
+Date	Sun May 07 01:49:23 2000
+Build	2500
+Release	273
+
+	changes are:
+
+	- Reports->Results, 
+		- Default Column Selections:
+			- Place, PersonID, FirstName, LastName
+		- ChestNo Added, fixed up Group Start Time
+
+	- Results Entry->Delete relabelled 'bulk Delete Results'
+		- confirmation page added
+
+	- Utilities->Delete Results
+		- confirmation page added
+
+	- Utilities->Bulk Adjust Groups, 0.9 was truncating to 0 rather than
+		rounding off to 1.  modified so now rounds rather than truncates
+		- as we have a minimum adjustment factor of 0.55 no-one will ever
+			get bulk adjusted to 0. i.e. round(1 x 0.55) = 1.
+		- "Bulk Adjustment" message now set when current message is null
+
+		- n.b. bulk adjust utility is alot slower due to these changes.
+

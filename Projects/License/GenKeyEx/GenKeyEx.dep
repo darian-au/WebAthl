@@ -1,0 +1,84 @@
+# Microsoft Developer Studio Generated Dependency File, included by GenKeyEx.mak
+
+.\Base64.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\Crypt.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\CryptByteArray.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\GenKeyEx.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\GenKeyEx.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\RegKey.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\MIMECode.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\RegKey.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\RegKey.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\StdAfx.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	
+
+.\Switch.cpp : \
+	".\Base64.h"\
+	".\Crypt.h"\
+	".\CryptByteArray.h"\
+	".\key_intf.h"\
+	".\MIMECode.h"\
+	".\StdAfx.h"\
+	".\Switch.h"\
+	

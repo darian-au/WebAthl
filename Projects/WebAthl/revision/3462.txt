@@ -1,0 +1,11 @@
+Date	Fri Jan 19 17:48:07 2001
+Build	3462
+Release	331
+
+	changes are:
+
+	- Added new CBitMask object with useful Enumeration methods,
+	  CModule extends CBitMask.
+
+	- Added new CDBTable, CDBView, CDBStoredProcedure objects
+	  extending CBitMask for Enumeration.

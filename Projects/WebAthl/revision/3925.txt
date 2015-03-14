@@ -1,0 +1,34 @@
+Date	Sun Feb 18 01:54:56 2001
+Build	3925
+Release	353
+
+	changes are:
+
+	- Removed AgeCategory and Handicapped Columns from Series table.
+		- You need to do a Backup, Create Tables, Restore to rebuild the
+		  database.
+		- But before you do the restore, you must modify the Series.CSV file
+		  to remove the AgeCategory and Hadicapped Columns.
+
+
+	- pEx->Delete(); added in all catch blocks.
+
+
+	- Registered/Shareware Version,
+		- Shareware version is now limited to:
+			-  1 Series,
+			- 10 Events on each Series,
+			- 50 Persons.
+
+		- Message :
+			Maximum <tbl> Count Reached.  Please Purchase a License Key.
+
+		- The Message appears when:
+			- Adding a new Series,
+			- Adding a new Event on a Series,
+			- Adding a new Person,
+			- Processing.
+
+		- We cant stop people from manually loading data into the database,
+		  so I put the restriction on Processing also.  So even if they
+		  manage to get the data in, they cant do anything with it.

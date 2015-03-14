@@ -1,0 +1,9 @@
+Date	Sun May 14 23:03:49 2000
+Build	2620
+Release	277
+
+	changes are:
+
+	- Utilities -> Fix Duplicate Person (Security Access only)
+
+		- now allows delete of individual rows causing constraints

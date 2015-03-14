@@ -1,0 +1,28 @@
+Date	Sun Feb 11 13:44:24 2001
+Build	3884
+Release	352
+
+	changes are:
+
+	- Seperated CalcMiscResults into two Processes
+		- CalcMiscResults
+		- CalcWorldStandards
+	- This way if there is something wromg with World Standards, it does not
+	  effect the other processes
+
+	- AgeGroup Ranking Report
+		- Select Series, Location, Event Type on 3 seperate pages
+
+	- Processing
+		- Summmaries added to each Process
+		- If no summary is printed, then that process had no effect.
+
+	- Main Menu
+		- rearranged order
+		- Moved "Event Type", and "Location" into "Series" Menu
+			- Added "Maintain Series" in "Series" Menu
+
+		- Moved "Roster Descriptions" into "Roster" Menu
+
+		- Moved "Registration Type" into "Financial" Menu
+

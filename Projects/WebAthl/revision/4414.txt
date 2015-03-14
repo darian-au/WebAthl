@@ -1,0 +1,19 @@
+Date	Sat Aug 31 21:34:55 2002 
+Build	4414 
+Release	381 
+
+	changes are:
+
+	- Bug Fix, Process "Calculate Points",
+	  Same Points for Same Time calculation
+
+	- Bug Fix, Process "Calculate Net-Performance",
+	  HH:MM:SS NOT calculated for Jumps and Throws.
+	  HH:MM:SS are still calculated for Sprints.
+	    Assumption is that Sprints take less than an hour?
+
+	- Report - Participant History,
+	  Sorts by Event Date Descending.
+
+	- Event Results Entry,
+	  Relabelled menu item Edit/Delete Result.

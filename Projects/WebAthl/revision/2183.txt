@@ -1,0 +1,7 @@
+Date	Tue Mar 07 19:26:58 2000
+Build	2183
+Release	246
+
+	changes are:
+
+	- Utilities->setEligonGroup, now allows a Range of Groups for selection

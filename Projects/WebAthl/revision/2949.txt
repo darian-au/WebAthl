@@ -1,0 +1,12 @@
+Date	Tue Oct 24 21:57:44 2000
+Build	2949
+Release	304
+
+	changes are:
+
+	- Utilities -> Rebuild AgeGroups
+		- removed Stored Procedure and replaced with SQL.
+		- before the SP was recalculating all agegroups regardless
+		  of whether they were right or not.
+		- now (although the SQL statement is slower) the agegroups are only
+		  updated if they are wrong, which overall runs a lot faster.

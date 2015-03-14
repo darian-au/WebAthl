@@ -1,0 +1,22 @@
+Date	Sun Dec 01 16:58:32 2002 
+Build	4464 
+Release	385 
+
+	changes are:
+
+	- Fixed Date Agegroup Calculation,
+		- Not implemented yet, 
+		  but Add/Edit Event in Maintain Series allows
+		  these values to be set.
+		- Not used in any calculations yet.
+
+	- Group Selection List,
+		- Change Group Utility,
+		- Results Entry (Add/Edit).
+
+	- Group Selection Range,
+		- Bulk Adjust Utility.
+			- now only lists the Results that have been modified.
+
+	- Reports Event Tally,
+		- Allows Date Selection Range.

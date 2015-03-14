@@ -1,0 +1,32 @@
+Date	Mon Mar 15 14:47:18 2004 
+Build	4500 
+Release	390 
+
+	changes are:
+
+	- Split Process "Set Consistency Rates" into two:
+		- 1. "Set Consistency Events Rate"
+			- Sort on Event Rate ASC (as previously)
+
+		- 2. "Set Consistency Age Standard"
+			- Sort on World Standard DESC
+
+	- Series -> Maintain Series -> Rules
+		- Change "Events Missed" to "Events Completed" (to accord with algorithm)
+
+		- This is also a change to the data in the RuleSubType table.
+
+			update rulesubtype 
+			set rulesubtypedescription = 'Events Completed'
+			where rulesubtypedescription = 'Events Missed'
+
+			- I have done this.
+
+	- Reports -> Rules
+		- Below Eligibility Rules add statement
+		  * Guide only – your Event Manager can advise on your circumstances. 
+
+		- I can't do this on this page as it is generated from the database.
+		  It doesn't actually "know" how to distinguish between rules,
+		  only that there is a list of rules in the database it has to 
+		  loop through to display.

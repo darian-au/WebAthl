@@ -1,0 +1,11 @@
+Date	Sat Dec 02 22:21:08 2000
+Build	3096
+Release	313
+
+	changes are:
+
+	- Bug Fix: Processing -> "Calculate Event Rate"
+		- Sprint Event Rates, not calculated correctly, causing problem
+		  with Regroup calculation, fixed.
+
+	- Processing also allows Set Overall-Place By Division/By Place selection.

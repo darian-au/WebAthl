@@ -1,0 +1,10 @@
+Date	Sun Jun 18 14:17:02 2000
+Build	2735
+Release	288
+
+	changes are:
+
+	- minor internal clean-ups
+		- new wwwlib function -> SelectEventBox, converted all other 
+		  calling code to call this.
+		- remove processing->selectNextEventForm, why didn't I remove it ages ago?

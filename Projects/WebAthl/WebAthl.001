@@ -1,0 +1,883 @@
+# Microsoft Developer Studio Project File - Name="webAthl" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 5.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
+
+CFG=webAthl - Win32 Release
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "webAthl.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "webAthl.mak" CFG="webAthl - Win32 Release"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "webAthl - Win32 Release" (based on\
+ "Win32 (x86) Dynamic-Link Library")
+!MESSAGE "webAthl - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
+!MESSAGE 
+
+# Begin Project
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "webAthl - Win32 Release"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir ".\Release"
+# PROP BASE Intermediate_Dir ".\Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir ".\Release"
+# PROP Intermediate_Dir ".\Release"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /YX /c
+# ADD CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /YX /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
+# ADD BASE RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /dll /machine:I386
+# ADD LINK32 /nologo /subsystem:windows /dll /machine:I386
+# Begin Custom Build
+InputPath=.\Release\webAthl.dll
+SOURCE=$(InputPath)
+
+"build\build.exe" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+	build\build.bat
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "webAthl - Win32 Debug"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir ".\Debug"
+# PROP BASE Intermediate_Dir ".\Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir ".\Debug"
+# PROP Intermediate_Dir ".\Debug"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /YX /c
+# ADD CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /YX /FD /c
+# ADD BASE MTL /nologo /D "_DEBUG" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
+# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /dll /debug /machine:I386
+# ADD LINK32 /nologo /subsystem:windows /dll /debug /machine:I386
+
+!ENDIF 
+
+# Begin Target
+
+# Name "webAthl - Win32 Release"
+# Name "webAthl - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90"
+# Begin Group "RecordSets Source"
+
+# PROP Default_Filter "cpp"
+# Begin Source File
+
+SOURCE=.\bigReportSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\BoolResult.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ClubRecordsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ConsistencySet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\CountResults.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\CountRules.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventETypLoc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventRecordSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventTallySet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventTypeSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\FinancialSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\GroupsReportSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\GroupsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Law.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\LocationSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\OrganisationSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantDetailsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantForSeriesSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantHistorySet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PersonParticipantForSeriesSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PersonSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PointScoreSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\postResultsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\preResultsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\qReport.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ResultsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterDescriptionsSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterNamesSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RulesSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RuleSubTypeSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RuleTypeSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupDescSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupPermSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityPermTableSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityPersonSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SeriesSeasonSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SeriesSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Validate.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\WorldStandardSet.cpp
+# End Source File
+# End Group
+# Begin Group "web"
+
+# PROP Default_Filter "cpp"
+# Begin Source File
+
+SOURCE=.\Event.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventType.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Financial.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Groups.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Location.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Organisation.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Person.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Processing.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Reports.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Results.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Roster.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterDescriptions.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Rules.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SearchPerson.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Security.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SelectSeries.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Series.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Utility.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\WorldStandard.cpp
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\Calc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\CookieLib.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\CSVLib.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Default.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Entry.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Login.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\start.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\stdafx.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Utils.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\validateLogin.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\webAthl.CPP
+# End Source File
+# Begin Source File
+
+SOURCE=.\webAthl.DEF
+# End Source File
+# Begin Source File
+
+SOURCE=.\webAthl.RC
+# End Source File
+# Begin Source File
+
+SOURCE=.\WWWLib.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl;fi;fd"
+# Begin Group "RecordSets Header"
+
+# PROP Default_Filter "h"
+# Begin Source File
+
+SOURCE=.\bigReportSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\BoolResult.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ClubRecordsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ConsistencySet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\CountResults.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\CountRules.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventETypLoc.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventRecordSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventTallySet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EventTypeSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\FinancialSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\GroupsReportSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\GroupsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Law.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\LocationSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\OrganisationSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantDetailsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantForSeriesSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ParticipantHistorySet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PersonParticipantForSeriesSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PersonSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PointScoreSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\postResultsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\preResultsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\qReport.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ResultsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterDescriptionsSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterNamesSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RosterSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RulesSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RuleSubTypeSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RuleTypeSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupDescSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupPermSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityGroupSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityPermTableSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SecurityPersonSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SeriesSeasonSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SeriesSet.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Validate.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\WorldStandardSet.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\CookieLib.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\CSVLib.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\stdafx.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Utils.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\validateLogin.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\webAthl.H
+# End Source File
+# Begin Source File
+
+SOURCE=.\WWWLib.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# End Group
+# Begin Group "HTML"
+
+# PROP Default_Filter "html;htm"
+# Begin Source File
+
+SOURCE=.\Html\addSelectBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\CheckBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\DateBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\Default.htm
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EditFloatBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EditIntBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EditTextBoxLarge.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EditTextBoxSmall.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EmptyHorizontalRule.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\EmptyHRule.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\endRoster.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\endSelectBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\GroupsTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\GroupsTableHeader.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\HiddenFloat.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\HiddenInt.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\HiddenText.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\HorizontalRule.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\HRule.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\menuBar.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\menuButton.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\nonEditDateBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\NonEditFloat.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\NonEditInt.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\NonEditText.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\PasswordBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RadioButton.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RadioTableButton.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ReportTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ResetButton.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ResultsDistTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ResultsTableHeader.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ResultsTimeTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RosterTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RulesHeader.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RuleSubmit.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RuleSubTypeSel.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\RuleTypeSel.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\ScrollButtons.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\StandardDistTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\StandardTableHeader.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\StandardTimeTable.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\StartForm.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\startRoster.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\startSelectBox.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\SubmitButton.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\TextArea.HTM
+# End Source File
+# Begin Source File
+
+SOURCE=.\Html\TimeBox.HTM
+# End Source File
+# End Group
+# Begin Group "SQL"
+
+# PROP Default_Filter "SQL"
+# Begin Source File
+
+SOURCE=.\Sql\BirthDayList.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\ClubRecords.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\Consistency.sql
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\EventForProcessing.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\EventTally.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\GroupForParticipant.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\GroupsReport.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\MailList.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\nextEvent.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\ParticipantHistory.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\PersonParticipant.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\PointScore.SQL
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sql\Results.SQL
+# End Source File
+# End Group
+# Begin Group "build"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\build\Date.txt
+# End Source File
+# Begin Source File
+
+SOURCE=.\build\no.txt
+# End Source File
+# End Group
+# End Target
+# End Project

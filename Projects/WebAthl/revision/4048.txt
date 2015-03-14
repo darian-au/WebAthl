@@ -1,0 +1,45 @@
+Date	Tue Apr 17 00:03:49 2001
+Build	4048
+Release	361
+
+	changes are:
+
+	- New Process, SetEventsForSeason.
+
+	- Modified Process, SetConsistencyAgeGroups 
+	  so that if there are no Consistency Rules, then
+		- Consistency AgeGroup is copied from AgeGroup
+		- Consistency Events Current is set to EventsForSeason
+		- Consistency Events Older is set to 0
+
+		- previously, all were set to 0
+
+	- Modified Search Person,
+		- you can now provide a CSV list of numbers specifiying
+		  your custom search criteria.
+
+		- The list can be of any length.
+
+		  eg:
+
+			Last Name : 3,2,1
+			First Name : 0,2,1
+			Middle Name : 0,0,1
+
+		  means : 
+
+			  3 Characters in the 'Last Name' 
+			( 0 Characters in the 'First Name' )
+			( 0 Characters in the 'Middle Name' )
+
+			OR
+
+			  2 Characters in the 'Last Name' 
+			  2 Characters in the 'First Name' 
+			( 0 Characters in the 'Middle Name' )
+
+			OR
+
+			  1 Characters in the 'Last Name' 
+			  1 Characters in the 'First Name' 
+			  1 Characters in the 'Middle Name' 

@@ -1,0 +1,19 @@
+Date	Sat Jun 17 21:16:32 2000
+Build	2725
+Release	287
+
+	changes are:
+
+	- Reports -> Roster
+		- Now allows selection of columns for display, as well as order by selection.
+		- Security Permission to "ViewPerson", allows selection of all Person columns,
+			otherwise, selection of minimal details, try it by logging in as "guest"
+
+	- All references to PartnerID are now replaced with ContactID
+		- there was still some spots I missed
+
+	- Database structure unchanged but Person.PartnerID changed to Person.ContactID
+		- this change requires a data reload, i.e,
+			- backup with old webAthl.dll for each database, then
+			- restore with new webAthl.dll for each database.
+			

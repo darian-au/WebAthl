@@ -1,0 +1,9 @@
+Date	Thu Jan 25 18:06:45 2001
+Build	3723
+Release	346
+
+	changes are:
+
+	- Removed all references to StoredProcedures.
+
+	- Renamed all Pages.

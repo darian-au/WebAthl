@@ -1,0 +1,12 @@
+Date	Tue Sep 11 22:41:37 2001 
+Build	4355
+Release	377
+
+	changes are:
+
+	- Reports, Awards, added Column "Events For Series"
+
+	- Results Entry, Quick Add
+		- Minor Cosmetic Changes to Form.
+
+	- Other Minor Cosmetic Changes.

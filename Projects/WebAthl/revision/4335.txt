@@ -1,0 +1,78 @@
+Date	Sat Sep 08 22:31:33 2001
+Build	4335
+Release	376
+
+	changes are:
+
+	- Table ParticipantForSeries modified,
+		- Added Column EventForSeries
+
+	- Table PostResults modified,
+		- Added Columns Points, NewGroupID, NewGroupMessage
+
+	- Table PostResults, PreResults, Results modified,
+		- Lengthened ChestNumber field from 20 to 60 chars.
+
+	- You will need to Export/Drop/Create/Import the Tables
+	  ParticipantForSeries/PostResults/PreResults/Results
+	  to apply the change.
+
+	- Processing, 
+		- New Process, Set Events For Series. (Similar to Set Event For Season)
+
+		- Split up Process: Calc NetPerformance, Percentile, Points, EventRate
+		  into 4 seperate Processes.
+			- required to modify Calculate Points Process for Handling
+			  Points override in PostResults.
+			- note also that this allows you to easily run the 
+			  Calc EventRate Process on the Results that had 0 EventRate.
+
+		- Modified Calc Point Process to Handle Points override from PostResults.
+
+		- Modified ReGroup Process to Handle NewGroup override from PostResults.
+
+	- Maintenance,
+		-Import/Export Data, now displays a summary of # rows Copied or Failed.
+
+	- Event Results Entry -> Quick Add,
+
+		- Allow Points, NewGroupID, NewGroupMessage to be entered.
+		- These values will only be Processed when the appropriate Rules
+		  are Disabled for the Series, otherwise they are ignored.
+
+		- Now allows Editions as well as Additions. 
+		  ie no more PK constraint violations, will Edit instead.
+
+	- Event Results Entry -> Bulk Add,
+
+		- Allow Points, NewGroupID, NewGroupMessage to be entered.
+		- These values will only be Processed when the appropriate Rules
+		  are Disabled for the Series, otherwise they are ignored.
+
+		- Now allows Editions as well as Additions. 
+		  ie no more PK constraint violations, will Edit instead.
+
+		- Full List of Legal Values for Column Names are now:
+
+			"Division"
+			"Div"
+			"Place"
+			"PersonID"
+			"AgeGroup"
+			"Age"
+			"HH"
+			"HOUR"
+			"MM"
+			"MIN"
+			"SS.SS"
+			"SS"
+			"SEC"
+			"Performance"
+			"Perf"
+			"GroupID"
+			"ChestNumber"
+			"ChestNo"
+			"Points"
+			"NewGroupID"
+			"NewGroupMessage"
+			"Message"

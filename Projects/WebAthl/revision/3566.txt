@@ -1,0 +1,7 @@
+Date	Mon Jan 22 00:49:26 2001
+Build	3566
+Release	337
+
+	changes are:
+
+	- removed BCP methods in Maintenance, anre replaced with ODBCBulkCopy.

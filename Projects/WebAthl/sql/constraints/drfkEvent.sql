@@ -1,0 +1,5 @@
+ALTER TABLE Event DROP
+
+	CONSTRAINT FK_Event_SeriesID ,
+	CONSTRAINT FK_Event_EventTypeID ,
+	CONSTRAINT FK_Event_LocationID 

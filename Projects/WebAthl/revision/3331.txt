@@ -1,0 +1,7 @@
+Date	Mon Jan 15 14:18:51 2001
+Build	3331
+Release	327
+
+	changes are:
+
+	- Added new Crypt and WebCrypt objects

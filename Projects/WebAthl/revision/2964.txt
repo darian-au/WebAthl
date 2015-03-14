@@ -1,0 +1,23 @@
+Date	Wed Oct 25 22:36:56 2000
+Build	2964
+Release	305
+
+	changes are:
+
+	- Edit/Add Person now allows and stores nulls 
+	  (a 0 (or any non numeric) in the day, month, 
+	  or year box gets turned into a null ).
+
+	- AgeGroup calculations on null fields end up 
+	  as null (nulls aren't ignored).
+
+	- implications are that you can no longer search by
+	  agegroup in results or club records,
+	- actually, you may have problems generating club records 
+	  because EventRecord Table has Agegroup in the Primary Key,
+	  and doesn't allow nulls.!!
+
+	- maybe a better solution is, if the dob is null, set the
+	  AgeGroup to 0 (Open age category).
+
+	- let me know how you go.

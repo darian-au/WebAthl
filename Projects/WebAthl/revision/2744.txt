@@ -1,0 +1,9 @@
+Date	Sun Jul 09 16:20:10 2000
+Build	2744
+Release	290
+
+	changes are:
+
+	- Person / Search Person:
+		- Search displays: [PersonID: Lastname, FirstName Middlename ; dobDay dobMonth dobYear]
+		- edit Person / Comment menu now has two choices: go back and [edit Person] OR go back to [Person Menu]

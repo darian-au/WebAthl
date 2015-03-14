@@ -1,0 +1,12 @@
+Date	Sun May 14 02:38:48 2000
+Build	2585
+Release	276
+
+	changes are:
+
+	- Utilities -> Fix Duplicate Person (Security Access only)
+
+		- be careful
+			- "On Error - Delete" function doesn't just delete the
+			  row that caused a PK constraint, it rolls back
+			  and then deletes all rows for that person in the table!

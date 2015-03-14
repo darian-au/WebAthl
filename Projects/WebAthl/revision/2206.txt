@@ -1,0 +1,16 @@
+Date	Sat Mar 18 17:34:24 2000
+Build	2206
+Release	247
+
+	changes are:
+
+	- editPerson now allows addition of comments (works similar to Rules)
+		- 4 columns are in a new PersonComments Table
+		- PersonID, CommentNo, Type and Comment
+		- Type can be e-mail, phone, or any type of comment you like;
+		- and Comment is the comment mapping to that type
+
+	- viewPerson can also view the comments
+
+	Note: you will have to a Database backup/restore to create the new table
+

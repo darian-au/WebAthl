@@ -1,0 +1,11 @@
+Date	Mon Mar 20 11:48:57 2000
+Build	2241
+Release	249
+
+	changes are:
+
+	- modified RegistrationType Table
+		- changed Description column to RegistrationDescription	
+		- need to backup/restore to implement changes
+	- removed Options->Season as it now has no relevance
+

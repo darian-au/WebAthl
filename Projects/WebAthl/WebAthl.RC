@@ -1,0 +1,302 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#include ""WebAthl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxisapi.rc""       // Internet Support resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,392,4512
+ PRODUCTVERSION 1,0,392,4512
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "System for Handicapping, Event Recording, and Processing of Athletics\0"
+            VALUE "CompanyName", "WebAthletics\0"
+            VALUE "FileDescription", "WebAthletics Internet Server Extension Module\0"
+            VALUE "FileVersion", "1, 0, 392, 4512\0"
+            VALUE "InternalName", "WebAthletics\0"
+            VALUE "LegalCopyright", "Copyright © 1998 - 2005, Darian Bridge; Colin Bridge.\0"
+            VALUE "LegalTrademarks", "SHERPA\0"
+            VALUE "OriginalFilename", "WebAthl.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SHERPA, WebAthletics Internet Server Extension\0"
+            VALUE "ProductVersion", "1, 0, 392, 4512\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDS_BUILD_DATE          RCDATA  DISCARDABLE     "build\\date.txt"
+IDS_BUILD_NO            RCDATA  DISCARDABLE     "build\\no.txt"
+IDS_RELEASE_NO          RCDATA  DISCARDABLE     "build\\release.txt"
+IDS_HTML_DBCONFIG       RCDATA  DISCARDABLE     "html\\DBConfig.JS"
+IDS_HTML_ADDSELECTBOX   RCDATA  DISCARDABLE     "html\\AddSelectBox.HTM"
+IDS_HTML_CHECKBOX       RCDATA  DISCARDABLE     "html\\CheckBox.HTM"
+IDS_HTML_DATEBOX        RCDATA  DISCARDABLE     "html\\DateBox.HTM"
+IDS_HTML_DEFAULT        RCDATA  DISCARDABLE     "html\\Default.HTM"
+IDS_HTML_EMPTYHORIZONTALRULE RCDATA  DISCARDABLE     "html\\EmptyHorizontalRule.HTM"
+IDS_HTML_ENDROSTER      RCDATA  DISCARDABLE     "html\\EndRoster.HTM"
+IDS_HTML_ENDSELECTBOX   RCDATA  DISCARDABLE     "html\\EndSelectBox.HTM"
+IDS_HTML_GROUPSTABLE    RCDATA  DISCARDABLE     "html\\GroupsTable.HTM"
+IDS_HTML_GROUPSTABLEHEADER RCDATA  DISCARDABLE     "html\\GroupsTableHeader.HTM"
+IDS_HTML_HIDDENTEXT     RCDATA  DISCARDABLE     "html\\HiddenText.HTM"
+IDS_HTML_HORIZONTALRULE RCDATA  DISCARDABLE     "html\\HorizontalRule.HTM"
+IDS_HTML_MENUBAR        RCDATA  DISCARDABLE     "html\\MenuBar.HTM"
+IDS_HTML_MONTHBOX       RCDATA  DISCARDABLE     "html\\MonthBox.HTM"
+IDS_HTML_MULTIFORMCHECKBOX RCDATA  DISCARDABLE     "html\\MulitFormCheckBox.HTM"
+IDS_HTML_MULTIFORMCOMMENT RCDATA  DISCARDABLE     "html\\MulitFormComment.HTM"
+IDS_HTML_MULTIFORMEDITINTBOX RCDATA  DISCARDABLE     "html\\MultiFormEditIntBox.HTM"
+IDS_HTML_MULTIFORMHEADER RCDATA  DISCARDABLE     "html\\MulitFormHeader.HTM"
+IDS_HTML_MULTIFORMRADIOBUTTON RCDATA  DISCARDABLE     "html\\MulitFormRadioButton.HTM"
+IDS_HTML_MULTIFORMSTARTSELECTBOX RCDATA  DISCARDABLE     "html\\MulitFormStartSelectBox.HTM"
+IDS_HTML_NONEDITTEXT    RCDATA  DISCARDABLE     "html\\NonEditText.HTM"
+IDS_HTML_PASSWORDBOX    RCDATA  DISCARDABLE     "html\\PasswordBox.HTM"
+IDS_HTML_RADIOBUTTON    RCDATA  DISCARDABLE     "html\\RadioButton.HTM"
+IDS_HTML_RESETBUTTON    RCDATA  DISCARDABLE     "html\\ResetButton.HTM"
+IDS_HTML_RESULTSDISTTABLE RCDATA  DISCARDABLE     "html\\ResultsDistTable.HTM"
+IDS_HTML_RESULTSTABLEHEADER RCDATA  DISCARDABLE     "html\\ResultsTableHeader.HTM"
+IDS_HTML_RESULTSTIMETABLE RCDATA  DISCARDABLE     "html\\ResultsTimeTable.HTM"
+IDS_HTML_ROSTERTABLE    RCDATA  DISCARDABLE     "html\\RosterTable.HTM"
+IDS_HTML_RULESHEADER    RCDATA  DISCARDABLE     "html\\RulesHeader.HTM"
+IDS_HTML_RULESUBMIT     RCDATA  DISCARDABLE     "html\\RuleSubmit.HTM"
+IDS_HTML_RULESUBTYPESEL RCDATA  DISCARDABLE     "html\\RuleSubTypeSel.HTM"
+IDS_HTML_RULETYPESEL    RCDATA  DISCARDABLE     "html\\RuleTypeSel.HTM"
+IDS_HTML_STANDARDDISTTABLE RCDATA  DISCARDABLE     "html\\StandardDistTable.HTM"
+IDS_HTML_STANDARDTABLEHEADER RCDATA  DISCARDABLE     "html\\StandardTableHeader.HTM"
+IDS_HTML_STANDARDTIMETABLE RCDATA  DISCARDABLE     "html\\StandardTimeTable.HTM"
+IDS_HTML_STARTFORM      RCDATA  DISCARDABLE     "html\\StartForm.HTM"
+IDS_HTML_STARTROSTER    RCDATA  DISCARDABLE     "html\\StartRoster.HTM"
+IDS_HTML_STARTSELECTBOX RCDATA  DISCARDABLE     "html\\StartSelectBox.HTM"
+IDS_HTML_SUBMITBUTTON   RCDATA  DISCARDABLE     "html\\SubmitButton.HTM"
+IDS_HTML_TABLEHEADER    RCDATA  DISCARDABLE     "html\\TableHeader.HTM"
+IDS_HTML_TEXTAREA       RCDATA  DISCARDABLE     "html\\TextArea.HTM"
+IDS_HTML_TIMEBOX        RCDATA  DISCARDABLE     "html\\TimeBox.HTM"
+IDS_SQL_AGEGROUPRANKING RCDATA  DISCARDABLE     "sql\\AgeGroupRanking.SQL"
+IDS_SQL_AGEGROUPS       RCDATA  DISCARDABLE     "sql\\AgeGroups.SQL"
+IDS_SQL_AWARDS          RCDATA  DISCARDABLE     "sql\\Awards.SQL"
+IDS_SQL_CLUBRECORDS     RCDATA  DISCARDABLE     "sql\\ClubRecords.SQL"
+IDS_SQL_CONSISTENCY     RCDATA  DISCARDABLE     "sql\\Consistency.SQL"
+IDS_SQL_DELETERESULTSPREEVENTNOPOSTEVENT RCDATA  DISCARDABLE     "sql\\DeleteResultsPreEventNoPostEvent.SQL"
+IDS_SQL_EVENTFORPROCESSING RCDATA  DISCARDABLE     "sql\\EventForProcessing.SQL"
+IDS_SQL_EVENTTALLY      RCDATA  DISCARDABLE     "sql\\EventTally.SQL"
+IDS_SQL_FINANCIALHISTORY RCDATA  DISCARDABLE     "sql\\FinancialHistory.SQL"
+IDS_SQL_GETAGEGROUP     RCDATA  DISCARDABLE     "sql\\GetAgeGroup.SQL"
+IDS_SQL_GETCONSISTENCYAGEGROUP RCDATA  DISCARDABLE     "sql\\GetConsistencyAgeGroup.SQL"
+IDS_SQL_GETCONSISTENCYRESULTS RCDATA  DISCARDABLE     "sql\\GetConsistencyResults.SQL"
+IDS_SQL_GETEVENTLENGTH  RCDATA  DISCARDABLE     "sql\\GetEventLength.SQL"
+IDS_SQL_GETEVENTRECORD  RCDATA  DISCARDABLE     "sql\\GetEventRecord.SQL"
+IDS_SQL_GETEVENTRESULTSORDERBYGROSSPERF RCDATA  DISCARDABLE     "sql\\GetEventResultsOrderByGrossPerf.SQL"
+IDS_SQL_GETEVENTTIMED   RCDATA  DISCARDABLE     "sql\\GetEventTimed.SQL"
+IDS_SQL_GETFINANCIALPARTICIPANTFORSERIES RCDATA  DISCARDABLE     "sql\\GetFinancialParticipantForSeries.SQL"
+IDS_SQL_GETFINANCIALRESULTS RCDATA  DISCARDABLE     "sql\\GetFinancialResults.SQL"
+IDS_SQL_GETFIRSTEVENTFORSEASON RCDATA  DISCARDABLE     "sql\\GetFirstEventForSeason.SQL"
+IDS_SQL_GETLISTPOINTSCORES RCDATA  DISCARDABLE     "sql\\GetListPointScores.SQL"
+IDS_SQL_GETPERSONSLATESTEVENT RCDATA  DISCARDABLE     "sql\\GetPersonsLatestEvent.SQL"
+IDS_SQL_GETQUICKPOSTREPORT RCDATA  DISCARDABLE     "sql\\GetQuickPostReport.SQL"
+IDS_SQL_GETQUICKREPORT  RCDATA  DISCARDABLE     "sql\\GetQuickReport.SQL"
+IDS_SQL_GETROSTERNAMES  RCDATA  DISCARDABLE     "sql\\GetRosterNames.SQL"
+IDS_SQL_GETRULES        RCDATA  DISCARDABLE     "sql\\GetRules.SQL"
+IDS_SQL_GETRULESUBTYPE  RCDATA  DISCARDABLE     "sql\\GetRuleSubType.SQL"
+IDS_SQL_GETRULETYPE     RCDATA  DISCARDABLE     "sql\\GetRuleType.SQL"
+IDS_SQL_GETWAVARESULTS  RCDATA  DISCARDABLE     "sql\\GetWavaResults.SQL"
+IDS_SQL_GROUPFORPARTICIPANT RCDATA  DISCARDABLE     "sql\\GroupForParticipant.SQL"
+IDS_SQL_GROUPSREPORT    RCDATA  DISCARDABLE     "sql\\GroupsReport.SQL"
+IDS_SQL_INSERTEVENTRECORD RCDATA  DISCARDABLE     "sql\\InsertEventRecord.SQL"
+IDS_SQL_INSERTPARTICIPANTFORSERIES RCDATA  DISCARDABLE     "sql\\InsertParticipantForSeries.SQL"
+IDS_SQL_INSERTPFSPOINTSCORE RCDATA  DISCARDABLE     "sql\\InsertPFSPointScore.SQL"
+IDS_SQL_INSERTPFSPOSTRESULTS RCDATA  DISCARDABLE     "sql\\InsertPFSPostResults.SQL"
+IDS_SQL_INSERTPFSPRERESULTS RCDATA  DISCARDABLE     "sql\\InsertPFSPreResults.SQL"
+IDS_SQL_INSERTPOSTRESULTS RCDATA  DISCARDABLE     "sql\\InsertPostResults.SQL"
+IDS_SQL_INSERTPRERESULTS RCDATA  DISCARDABLE     "sql\\InsertPreResults.SQL"
+IDS_SQL_ISITWAVA        RCDATA  DISCARDABLE     "sql\\IsItWava.SQL"
+IDS_SQL_NEXTEVENT       RCDATA  DISCARDABLE     "sql\\NextEvent.SQL"
+IDS_SQL_PARTICIPANTHISTORY RCDATA  DISCARDABLE     "sql\\ParticipantHistory.SQL"
+IDS_SQL_PERSONPARTICIPANT RCDATA  DISCARDABLE     "sql\\PersonParticipant.SQL"
+IDS_SQL_POINTSCORE      RCDATA  DISCARDABLE     "sql\\PointScore.SQL"
+IDS_SQL_PREVEVENT       RCDATA  DISCARDABLE     "sql\\PrevEvent.SQL"
+IDS_SQL_RESULTSORG      RCDATA  DISCARDABLE     "sql\\ResultsOrg.SQL"
+IDS_SQL_SERIESSTATISTICS RCDATA  DISCARDABLE     "sql\\SeriesStatistics.SQL"
+IDS_SQL_UPDATEAGEGROUPS RCDATA  DISCARDABLE     "sql\\UpdateAgeGroups.SQL"
+IDS_SQL_UPDATEELIGIBILITYDIVISION RCDATA  DISCARDABLE     "sql\\UpdateEligibilityDivision.SQL"
+IDS_SQL_UPDATEELIGIBILITYGROUPS RCDATA  DISCARDABLE     "sql\\UpdateEligibilityGroups.SQL"
+IDS_SQL_UPDATEELIGIBILITYXMORE RCDATA  DISCARDABLE     "sql\\UpdateEligibilityXMore.SQL"
+IDS_SQL_UPDATEEVENTRECORD RCDATA  DISCARDABLE     "sql\\UpdateEventRecord.SQL"
+IDS_SQL_UPDATEORGANISATION RCDATA  DISCARDABLE     "sql\\UpdateOrganisation.SQL"
+IDS_SQL_UPDATEOVERALLPLACE RCDATA  DISCARDABLE     "sql\\UpdateOverAllPlace.SQL"
+IDS_SQL_UPDATEPOINTSCORES RCDATA  DISCARDABLE     "sql\\UpdatePointScores.SQL"
+IDS_SQL_CR_EVENT        RCDATA  DISCARDABLE     "sql\\tables\\crEvent.SQL"
+IDS_SQL_CR_EVENTRECORD  RCDATA  DISCARDABLE     "sql\\tables\\crEventRecord.SQL"
+IDS_SQL_CR_EVENTRECORDTEMP RCDATA  DISCARDABLE     "sql\\tables\\crEventRecordTemp.SQL"
+IDS_SQL_CR_EVENTTYPE    RCDATA  DISCARDABLE     "sql\\tables\\crEventType.SQL"
+IDS_SQL_CR_FINANCIAL    RCDATA  DISCARDABLE     "sql\\tables\\crFinancial.SQL"
+IDS_SQL_CR_GROUPS       RCDATA  DISCARDABLE     "sql\\tables\\crGroups.SQL"
+IDS_SQL_CR_LOCATION     RCDATA  DISCARDABLE     "sql\\tables\\crLocation.SQL"
+IDS_SQL_CR_ORGANISATION RCDATA  DISCARDABLE     "sql\\tables\\crOrganisation.SQL"
+IDS_SQL_CR_PARTICIPANTFORSERIES RCDATA  DISCARDABLE     "sql\\tables\\crParticipantForSeries.SQL"
+IDS_SQL_CR_PERSON       RCDATA  DISCARDABLE     "sql\\tables\\crPerson.SQL"
+IDS_SQL_CR_PERSONCOMMENTS RCDATA  DISCARDABLE     "sql\\tables\\crPersonComments.SQL"
+IDS_SQL_CR_POSTRESULTS  RCDATA  DISCARDABLE     "sql\\tables\\crPostResults.SQL"
+IDS_SQL_CR_PRERESULTS   RCDATA  DISCARDABLE     "sql\\tables\\crPreResults.SQL"
+IDS_SQL_CR_REGISTRATIONTYPE RCDATA  DISCARDABLE     "sql\\tables\\crRegistrationType.SQL"
+IDS_SQL_CR_RESULTS      RCDATA  DISCARDABLE     "sql\\tables\\crResults.SQL"
+IDS_SQL_CR_ROSTER       RCDATA  DISCARDABLE     "sql\\tables\\crRoster.SQL"
+IDS_SQL_CR_ROSTERDESCRIPTIONS RCDATA  DISCARDABLE     "sql\\tables\\crRosterDescriptions.SQL"
+IDS_SQL_CR_RULES        RCDATA  DISCARDABLE     "sql\\tables\\crRules.SQL"
+IDS_SQL_CR_RULESUBTYPE  RCDATA  DISCARDABLE     "sql\\tables\\crRuleSubType.SQL"
+IDS_SQL_CR_RULETYPE     RCDATA  DISCARDABLE     "sql\\tables\\crRuleType.SQL"
+IDS_SQL_CR_SECURITYPERSON RCDATA  DISCARDABLE     "sql\\tables\\crSecurityPerson.SQL"
+IDS_SQL_CR_SECURITYPERSONSERIES RCDATA  DISCARDABLE     "sql\\tables\\crSecurityPersonSeries.SQL"
+IDS_SQL_CR_SECURITYROLE RCDATA  DISCARDABLE     "sql\\tables\\crSecurityRole.SQL"
+IDS_SQL_CR_SERIES       RCDATA  DISCARDABLE     "sql\\tables\\crSeries.SQL"
+IDS_SQL_CR_SERIESSEASON RCDATA  DISCARDABLE     "sql\\tables\\crSeriesSeason.SQL"
+IDS_SQL_CR_WORLDSTANDARD RCDATA  DISCARDABLE     "sql\\tables\\crWorldStandard.SQL"
+IDS_SQL_CR_LATESTFINANCIAL RCDATA  DISCARDABLE     "sql\\views\\crLatestFinancial.SQL"
+IDS_SQL_FK_CR_EVENT     RCDATA  DISCARDABLE     "sql\\constraints\\fkEvent.SQL"
+IDS_SQL_FK_CR_EVENTRECORD RCDATA  DISCARDABLE     "sql\\constraints\\fkEventRecord.SQL"
+IDS_SQL_FK_CR_FINANCIAL RCDATA  DISCARDABLE     "sql\\constraints\\fkFinancial.SQL"
+IDS_SQL_FK_CR_GROUPS    RCDATA  DISCARDABLE     "sql\\constraints\\fkGroups.SQL"
+IDS_SQL_FK_CR_PARTICIPANTFORSERIES RCDATA  DISCARDABLE     "sql\\constraints\\fkParticipantForSeries.SQL"
+IDS_SQL_FK_CR_PERSON    RCDATA  DISCARDABLE     "sql\\constraints\\fkPerson.SQL"
+IDS_SQL_FK_CR_PERSONCOMMENTS RCDATA  DISCARDABLE     "sql\\constraints\\fkPersonComments.SQL"
+IDS_SQL_FK_CR_POSTRESULTS RCDATA  DISCARDABLE     "sql\\constraints\\fkPostResults.SQL"
+IDS_SQL_FK_CR_PRERESULTS RCDATA  DISCARDABLE     "sql\\constraints\\fkPreResults.SQL"
+IDS_SQL_FK_CR_RESULTS   RCDATA  DISCARDABLE     "sql\\constraints\\fkResults.SQL"
+IDS_SQL_FK_CR_ROSTER    RCDATA  DISCARDABLE     "sql\\constraints\\fkRoster.SQL"
+IDS_SQL_FK_CR_RULES     RCDATA  DISCARDABLE     "sql\\constraints\\fkRules.SQL"
+IDS_SQL_FK_CR_RULESUBTYPE RCDATA  DISCARDABLE     "sql\\constraints\\fkRuleSubType.SQL"
+IDS_SQL_FK_CR_SECURITYPERSON RCDATA  DISCARDABLE     "sql\\constraints\\fkSecurityPerson.SQL"
+IDS_SQL_FK_CR_SECURITYPERSONSERIES RCDATA  DISCARDABLE     "sql\\constraints\\fkSecurityPersonSeries.SQL"
+IDS_SQL_FK_CR_SERIESSEASON RCDATA  DISCARDABLE     "sql\\constraints\\fkSeriesSeason.SQL"
+IDS_SQL_FK_CR_WORLDSTANDARD RCDATA  DISCARDABLE     "sql\\constraints\\fkWorldStandard.SQL"
+IDS_SQL_FK_DR_EVENT     RCDATA  DISCARDABLE     "sql\\constraints\\drfkEvent.SQL"
+IDS_SQL_FK_DR_EVENTRECORD RCDATA  DISCARDABLE     "sql\\constraints\\drfkEventRecord.SQL"
+IDS_SQL_FK_DR_FINANCIAL RCDATA  DISCARDABLE     "sql\\constraints\\drfkFinancial.SQL"
+IDS_SQL_FK_DR_GROUPS    RCDATA  DISCARDABLE     "sql\\constraints\\drfkGroups.SQL"
+IDS_SQL_FK_DR_PARTICIPANTFORSERIES RCDATA  DISCARDABLE     "sql\\constraints\\drfkParticipantForSeries.SQL"
+IDS_SQL_FK_DR_PERSON    RCDATA  DISCARDABLE     "sql\\constraints\\drfkPerson.SQL"
+IDS_SQL_FK_DR_PERSONCOMMENTS RCDATA  DISCARDABLE     "sql\\constraints\\drfkPersonComments.SQL"
+IDS_SQL_FK_DR_POSTRESULTS RCDATA  DISCARDABLE     "sql\\constraints\\drfkPostResults.SQL"
+IDS_SQL_FK_DR_PRERESULTS RCDATA  DISCARDABLE     "sql\\constraints\\drfkPreResults.SQL"
+IDS_SQL_FK_DR_RESULTS   RCDATA  DISCARDABLE     "sql\\constraints\\drfkResults.SQL"
+IDS_SQL_FK_DR_ROSTER    RCDATA  DISCARDABLE     "sql\\constraints\\drfkRoster.SQL"
+IDS_SQL_FK_DR_RULES     RCDATA  DISCARDABLE     "sql\\constraints\\drfkRules.SQL"
+IDS_SQL_FK_DR_RULESUBTYPE RCDATA  DISCARDABLE     "sql\\constraints\\drfkRuleSubType.SQL"
+IDS_SQL_FK_DR_SECURITYPERSON RCDATA  DISCARDABLE     "sql\\constraints\\drfkSecurityPerson.SQL"
+IDS_SQL_FK_DR_SECURITYPERSONSERIES RCDATA  DISCARDABLE     "sql\\constraints\\drfkSecurityPersonSeries.SQL"
+IDS_SQL_FK_DR_SERIESSEASON RCDATA  DISCARDABLE     "sql\\constraints\\drfkSeriesSeason.SQL"
+IDS_SQL_FK_DR_WORLDSTANDARD RCDATA  DISCARDABLE     "sql\\constraints\\drfkWorldStandard.SQL"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SERVER              "WebAthl Extension"
+    IDS_PAGE_TITLE          "Web Athletics"
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#include "WebAthl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxisapi.rc"       // Internet Support resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

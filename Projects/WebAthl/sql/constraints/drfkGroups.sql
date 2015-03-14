@@ -1,0 +1,4 @@
+ALTER TABLE Groups DROP
+
+	CONSTRAINT FK_Groups_SeriesID ,
+	CONSTRAINT FK_Groups_EventTypeID 

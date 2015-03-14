@@ -1,0 +1,7 @@
+Date	Sun Sep 21 09:47:29 2003  
+Build	4491 
+Release	389 
+
+	changes are:
+
+	- Enhancement to make Cryptography algorithm more efficient.

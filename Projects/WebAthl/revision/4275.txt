@@ -1,0 +1,28 @@
+Date	Sun Aug 26 13:29:43 2001
+Build	4275
+Release	374
+
+	changes are:
+
+	- Event Results Entry -> Bulk Add Event Results,
+
+		- Bug Fix, Problem with Row not containing all values
+		  defined by Column Names.
+
+	- Security -> Permissions,
+
+		- Two new Permissions:
+
+			- Options 
+			- Maintenance 
+
+		- Breaks up Options Module and Maintenance Module
+		  which both used to be defined under Security.
+
+		- You will need to add these two Permissions to the
+		  Administrator.
+
+	- Security -> Assign Series to User,
+
+		- The List in AddSeries grows shorter as Series are
+		  added to Person in hand.

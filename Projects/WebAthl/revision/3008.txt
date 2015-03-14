@@ -1,0 +1,37 @@
+Date	Sun Nov 19 18:20:50 2000
+Build	3008
+Release	309
+
+	changes are:
+
+	- Bug Fix 1:
+		- Reporting error on some participants not showing all participant history
+		- this was datatype casting problem
+		- you may have noticed that the report would have said "data truncated"
+		  before, this is where the report fell over and stopped printing the
+		  rest of the page.
+
+	- Bug Fix 2:
+		- NetPerf calculation, rounding errors:
+			- dropping seconds.decimals, this was a rounding error on long
+			  distance events, previusly we never noticed it because we
+			  never recorded decimals on long distance results
+
+			- dropping minutes, we originally said that sprint events would not
+			  need to handle hours or minutes, so it just used the seconds value
+
+		- both sprint and long distance events now use the same calulation for
+		  net performance.
+
+	- Processing -> Calculate Over All Place
+		- removed Stored Procedure and replaced with SQL.
+
+	- NOTE :
+		- you need to run Create SP to fix the 2nd bug.
+		- you can try and run just the 
+		  "Calculate Net-Performance; Percentile; World-Standard; Points"
+		  Process to fix the results in the database, by resetting the next
+		  event for processing, but I am not sure what effects this will have
+		  on anything else, (I think it should be ok though)
+
+

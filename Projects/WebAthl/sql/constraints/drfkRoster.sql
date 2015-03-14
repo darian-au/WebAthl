@@ -1,0 +1,6 @@
+ALTER TABLE Roster DROP
+
+	CONSTRAINT FK_Roster_SeriesID ,
+	CONSTRAINT FK_Roster_PersonID ,
+	CONSTRAINT FK_Roster_TaskID ,
+	CONSTRAINT FK_Roster_EventID 

@@ -1,0 +1,25 @@
+Date	Mon Mar 20 12:57:13 2000
+Build	2246
+Release	250
+
+	changes are:
+
+	- updated Current function (checks to see if a membership is current)
+		- life members must now work differently,
+			cannot set the year to a year in the future, this will no
+			longer work, (you will get a membership lapsed message)
+		
+		- now looks at a special case in the RegistrationType
+			if you create a new RegistrationType
+			and NOT set any month range (leave them both blank)
+			this will trigger a special case in the Current function
+			which will be the LIFE member case, the year will not be
+			checked and this member will always be current.
+
+		- you will need to add a Life-Member RegistrationType
+		- for all your life-members you will have to change them over to
+		  this new type, if you don't, they will become Lapsed Members.
+
+		- NB you can add different types of life members if you like 
+		  e.g. life-member-club; life-member-individual; 
+		  life-member-family; etc as long as they have empty month ranges.

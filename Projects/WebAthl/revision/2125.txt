@@ -1,0 +1,30 @@
+Date	Sat Feb 12 21:21:32 2000
+Build	2125
+Release	235
+
+	changes are:
+
+	- Processing Rules modified, (changes are marked with a *).
+		- Rules for processing are as follows:
+
+			- An Event can be Pre-Event Processed if:
+				1. Participant count in PreResults Table is 0 for the event
+				2. Participant count in PostResults Table is 0 for the event
+			*   OR
+			*	3. Participant count in Results Table is 0 for the event
+
+				i.e no results have been entered anywhere for the event
+			*   OR	    the event has not been post-event processed
+
+			*	this means 1. Jim can enter any number of event results 
+			*	           2. In the event of a catastrophe, you can delete event Results
+			*	              and re-process.
+
+			- An Event can be Post-Event Processind if:
+				1. Participant count in PostResults Table is > 0 for the event
+
+			- An Event can be Locked-Out if:
+				1. Participant count in PostResults Table is > 0 for the event
+				2. Participant count in PostResults Table is = Participant 
+				   count in Results Table for the event.
+				i.e the event has been Post-Event Processed at least once.

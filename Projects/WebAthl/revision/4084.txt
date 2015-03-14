@@ -1,0 +1,63 @@
+Date	Sat Apr 21 19:35:41 2001
+Build	4084
+Release	362
+
+	changes are:
+
+	- Modified Options Person Search ,
+		- CSV list of numbers allowed for Sex and DoB also.
+
+		  eg:
+
+			Last Name     : 3,2,1		( 0's are implicit on column 4,
+			First Name    : 0,2,1,0		  but can be added if so wished )
+			Middle Name   : 0,0,1
+			Date Of Birth : 0,0,0,1		( 1 means required, 
+			Sex           : 0,0,0,1		  0 means not required )
+
+
+	- Anonymous and Open Pre-Event Entry Module.:
+
+	- Table Change on 'Event', 
+		- Added Column 'PreEntryOpen' status
+
+	- Maintain Series Module, Add/Edit Event,
+		- Event.PreEntryOpen status can be modified from here.
+
+	- 'Results Entry' renamed 'Event Results Entry'
+		- Pre/Post Event Entry now more distiguished by 
+		  renaming labels depending on whether you are 
+		  in Pre or Post mode.
+
+	- New Process, 'ClosePreEntry',
+		- Sets Event.PreEntryOpen status to Closed (0).
+		- Not a member of either Pre-Event or Post-Event Processing
+		  (as with 'PadPreResults')
+
+		- Only appears with 'PadPreResults' (when PreResults count > 0)
+
+	- New Security Permission, 'OpenPreEntry'
+		- Grant this permission to a Security Group that you want to 
+		  allow them to add themselves to an Event marked for OpenPreEntry.
+		- If the user is any normal logged in user they can only add
+		  themself.
+
+		- If you grant this permission to the Guest User, then they can
+		  search for a person, adding if required. (ie anonymous entry)
+
+		- NB For it to work, the Security Group must also be
+		  allocated SearchPerson permission.
+
+	- New Main Menu Item, 'Open Pre-Event Entry'
+		- Only for those Security Groups with permission OpenPreEntry.
+
+		- Only appears if there are more than 0 Events marked for OpenPreEntry.
+
+	- NOTE:
+		- For Event table change, you must export the Event table with the
+		  old version of WebAthl.DLL; then install the new WebAthl.DLL;
+		  Drop/Create the Event table; Import it; then Export it again to see
+		  the column name.
+
+		- To see the new Security Permission, you must 
+		  'Set Security Permissions' from the Security Module.

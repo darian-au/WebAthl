@@ -1,0 +1,43 @@
+Date	Sun Apr 16 10:45:19 2000
+Build	2290
+Release	254
+
+	changes are:
+
+	- I didn't like having the organisation joined directly to financial
+		- because the organisation a person ran for during an event should
+		  be part of the results history.
+		  What happens if a person changes to another Organisation?
+		  The event he ran before - he ran for the old organisation
+		  And then any new events he runs in will be for the new Organisation.
+
+	- So what I have done is:
+
+		- new Column OrgID on Results Table.
+			- to keep history of organisation for each persons event.
+		- new Post-Event Process - SetOrganisation
+			- looks up current financial and sets the Results.OrgID to the
+			  current finacial org for each person.
+		
+
+	- As a database change had to be made on the Results Table (added Column OrgID)
+		- you now must do a backup / restore.
+		- need to edit the Results.CSV file and just add an empty column to the end, as
+		  the Results table allows NULLs in OrgID.
+
+		 
+
+	so:
+
+		- Backup both ACTVAC ACTCCC with old webAthl.DLL
+		- open the Results.CSV in Excel
+		- put a space in the last column so that when you save it
+		  it puts a comma at the end of every row.
+		- Restore
+
+	- NOTE: now that OrgID is part of the Results History,
+		Reports->Results will not show the Organisation unless it has benn processed.
+		(ie Process->SetOrganisation for an Event)
+		(unless you manually put OrgID in the Results.CSV instead of spaces
+		 before you restore)
+

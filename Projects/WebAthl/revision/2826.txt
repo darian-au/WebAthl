@@ -1,0 +1,24 @@
+Date	Wed Aug 02 21:26:30 2000
+Build	2826
+Release	294
+
+	changes are:
+
+	- Awards Report,
+		- filters on 'Events for Season' for both types of report
+
+	- SetEligibityXmore ("Update Eligibility for the Series") process
+		- is now the first process to run outside of a stored procedure
+		- (this means it also works under MS-ACCESS)
+		- runs very quickly
+		- please test it very thoroughly
+
+	- ReSetEligibility "Reset Eligibility for the Series" AND
+	- RebuildParticipantForSeries "Rebuild Participants for the Series"
+		- have also been modified, but is still in a SP
+		- these will be easy to move out, and i will work on doing them next
+
+	- for now though you should have less problems processing.
+
+
+	NB: need to run Maintenance->CreateSP for new StoredProcedures

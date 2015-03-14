@@ -1,0 +1,11 @@
+Date	Mon Mar 20 14:56:43 2000
+Build	2255
+Release	251
+
+	changes are:
+
+	- minor clean ups on some Utilities
+		- SplitDivisions now displays the SeriesDescription
+		  and also has select boxes for group selection instead
+		  of edit boxes.
+		- BulkAdjustGroups now displays the SeriesDescription

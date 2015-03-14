@@ -1,0 +1,9 @@
+Date	Sun Mar 05 22:32:21 2000
+Build	2159
+Release	244
+
+	changes are:
+
+	- WAVA on Participant History Report
+	- Utilities->ChangeGroup now checks for a current NewGroupMessage and
+	  displays it, if none exists, it defaults to "Handicap Review"

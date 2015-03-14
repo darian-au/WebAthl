@@ -1,0 +1,8 @@
+Date	Thu Jan 18 00:53:18 2001
+Build	3418
+Release	330
+
+	changes are:
+
+	- Added new CModule object,
+	  used with CAuthenticator.

@@ -1,0 +1,7 @@
+; WebAthl.def : declares the module parameters for the DLL.
+
+LIBRARY	     "WebAthl"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion

@@ -1,0 +1,15 @@
+Date	Thu Jan 25 00:13:54 2001
+Build	3708
+Release	344
+
+	changes are:
+
+	- Report -> Age Group Ranking, added rank column, select series first.
+
+	- New Report -> Series Statistics
+
+		- calculates totals, uses SQL to count the data, so even for
+		  Thomas Series it adds up 20,000 rows in split second.
+
+	- Modified all other reports to use Bitmask for display options, works
+	  a lot better, and easier to maintain.
